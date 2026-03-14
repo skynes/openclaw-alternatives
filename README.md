@@ -12,28 +12,32 @@ In this overview we explore the current projects: from the flagship OpenClaw to 
 
 If you need to get up and running quickly, here's what we're here for:
 
-| Goal | Recommended Project | Why? |
-|------|---------------------|------|
-| **Universal choice** | **Nanobot** | Golden mean: Python, active community, multi-instance support, not very demanding on hardware (RAM 300MB+) |
-| **Maximum power** | **OpenClaw** | The standard, and that says it all. 15+ communication channels, voice, Canvas support, RAM 2GB+ |
-| **For weak machines** | **ZeroClaw** | Rust engine, consumes only ~5MB RAM |
-| **IoT and Edge** | **PicoClaw** | Runs on hardware for $10 (ESP32 and similar) |
-| **Security** | **IronClaw** | WebAssembly sandbox and paranoid approach to privacy |
-| **Minimalism** | **TinyClaw** | Just 400 lines of code. Perfect for learning |
+
+| Goal                  | Recommended Project                                       | Why?                                                                                                       |
+| --------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Universal choice**  | **[Nanobot](https://github.com/HKUDS/nanobot)**           | Golden mean: Python, active community, multi-instance support, not very demanding on hardware (RAM 300MB+) |
+| **Maximum power**     | **[OpenClaw](https://github.com/openclaw/openclaw)**      | The standard, and that says it all. 15+ communication channels, voice, Canvas support, RAM 2GB+            |
+| **For weak machines** | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | Rust engine, consumes only ~5MB RAM                                                                        |
+| **IoT and Edge**      | **[PicoClaw](https://github.com/sipeed/picoclaw)**        | Runs on hardware for $10 (ESP32 and similar)                                                               |
+| **Security**          | **[IronClaw](https://github.com/nearai/ironclaw)**        | WebAssembly sandbox and paranoid approach to privacy                                                       |
+| **Minimalism**        | **[TinyClaw](https://github.com/jlia0/tinyclaw)**         | Just 400 lines of code. Perfect for learning                                                               |
+
 
 ## 📊 Comparison Table
 
 Sorting by popularity and project activity on GitHub (data as of March 2026).
 
-| Project | ⭐ Stars | Language | Type | Features |
-|---------|---------|----------|------|----------|
-| **OpenClaw** | 306k | TypeScript | AI-agent | Base project, MCP and AWS EC2 support |
-| **Nanobot** | 32k | Python | AI-agent | Multi-instance, ultra-lightweight |
-| **ZeroClaw** | 26k | Rust | AI-agent | Memory usage ~5MB, fast startup |
-| **PicoClaw** | 24k | Go | Edge/IoT | Works as a node in gateway, cheap hardware |
-| **AstrBot** | 22k | Python | Chatbot | Focus on IM platforms (TG, WhatsApp) |
-| **NanoClaw** | 21k | TypeScript | AI-agent | Containerization, focus on business messengers |
-| **IronClaw** | 9.6k | Rust | AI-agent | WASM sandbox, maximum isolation |
+
+| Project                                                   | ⭐ Stars | Language   | Type     | Features                                       |
+| --------------------------------------------------------- | ------- | ---------- | -------- | ---------------------------------------------- |
+| **[OpenClaw](https://github.com/openclaw/openclaw)**      | 306k    | TypeScript | AI-agent | Base project, MCP and AWS EC2 support          |
+| **[Nanobot](https://github.com/HKUDS/nanobot)**           | 32k     | Python     | AI-agent | Multi-instance, ultra-lightweight              |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 26k     | Rust       | AI-agent | Memory usage ~5MB, fast startup                |
+| **[PicoClaw](https://github.com/sipeed/picoclaw)**        | 24k     | Go         | Edge/IoT | Works as a node in gateway, cheap hardware     |
+| **[AstrBot](https://github.com/AstrBotDevs/AstrBot)**     | 22k     | Python     | Chatbot  | Focus on IM platforms (TG, WhatsApp)           |
+| **[NanoClaw](https://github.com/qwibitai/nanoclaw)**      | 21k     | TypeScript | AI-agent | Containerization, focus on business messengers |
+| **[IronClaw](https://github.com/nearai/ironclaw)**        | 9.6k    | Rust       | AI-agent | WASM sandbox, maximum isolation                |
+
 
 ## 🛠 Niche Alternatives and «Micro-Lobsters»
 
@@ -41,15 +45,15 @@ For those looking for specific solutions — from bare-metal to Erlang systems.
 
 ### Performance and Edge
 
-- **NullClaw** (Zig): Fantastic performance. 678KB binary, startup <2ms. Suitable for Arduino and RPi.
-- **MimiClaw** (C): Runs on ESP32-S3 bare-metal. Solution cost ~$5.
-- **SubZeroClaw** (C): Only 54KB.
+- **[NullClaw](https://github.com/nullclaw/nullclaw)** (Zig): Fantastic performance. 678KB binary, startup <2ms. Suitable for Arduino and RPi.
+- **[MimiClaw](https://github.com/memovai/mimiclaw)** (C): Runs on ESP32-S3 bare-metal. Solution cost ~$5.
+- **[SubZeroClaw](https://github.com/jmlago/subzeroclaw)** (C): Only 54KB.
 
 ### Security and Fault Tolerance
 
-- **ZeptoClaw**: 7-layer security system on Rust.
-- **BeamClaw**: Written in Erlang/OTP for distributed systems.
-- **Safeclaw**: Works without LLM (intent recognition), guaranteeing 100% predictability.
+- **[ZeptoClaw](https://github.com/qhkm/zeptoclaw)**: 7-layer security system on Rust.
+- **[BeamClaw](https://github.com/peterdmv/beamclaw)**: Written in Erlang/OTP for distributed systems.
+- **[Safeclaw](https://github.com/princezuda/safeclaw)**: Works without LLM (intent recognition), guaranteeing 100% predictability.
 
 ## 🚀 Quick Start
 
@@ -97,16 +101,20 @@ git clone https://github.com/openclaw/openclaw.git && cd openclaw
 ## Updating Data {#updating-data}
 
 **GitHub (stars, forks):**
+
 ```powershell
 python scripts/fetch_github_stats.py
 ```
+
 Results → `scripts/data/github_stats.json`
 
 **Tavily (project descriptions):**
+
 ```powershell
 $env:TAVILY_API_KEY="your-api-key"
 python scripts/compare_projects.py
 ```
+
 Results → `scripts/data/tavily_results.json`
 
 For full repository links, extended tables, and category summary, see [REFERENCE.md](REFERENCE.md).

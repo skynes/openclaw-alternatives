@@ -14,12 +14,12 @@
 
 | 目的 | 推奨プロジェクト | 理由 |
 |------|------------------|------|
-| **汎用選択** | **Nanobot** | バランス重視：Python、活発なコミュニティ、マルチインスタンス対応、ハードウェア要求低（RAM 300MB+） |
-| **最大性能** | **OpenClaw** | 業界標準。15+ 通信チャネル、音声、Canvas 対応、RAM 2GB+ |
-| **低スペック機** | **ZeroClaw** | Rust エンジン、わずか ~5MB RAM |
-| **IoT・Edge** | **PicoClaw** | $10 のハードウェアで動作（ESP32 など） |
-| **セキュリティ** | **IronClaw** | WebAssembly サンドボックス、プライバシー重視 |
-| **ミニマリズム** | **TinyClaw** | わずか 400 行。学習に最適 |
+| **汎用選択** | [**Nanobot**](https://github.com/HKUDS/nanobot) | バランス重視：Python、活発なコミュニティ、マルチインスタンス対応、ハードウェア要求低（RAM 300MB+） |
+| **最大性能** | [**OpenClaw**](https://github.com/openclaw/openclaw) | 業界標準。15+ 通信チャネル、音声、Canvas 対応、RAM 2GB+ |
+| **低スペック機** | [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | Rust エンジン、わずか ~5MB RAM |
+| **IoT・Edge** | [**PicoClaw**](https://github.com/sipeed/picoclaw) | $10 のハードウェアで動作（ESP32 など） |
+| **セキュリティ** | [**IronClaw**](https://github.com/nearai/ironclaw) | WebAssembly サンドボックス、プライバシー重視 |
+| **ミニマリズム** | [**TinyClaw**](https://github.com/jlia0/tinyclaw) | わずか 400 行。学習に最適 |
 
 ## 📊 比較表
 
@@ -27,13 +27,13 @@ GitHub の人気・活動度でソート（2026年3月データ）。
 
 | プロジェクト | ⭐ Stars | 言語 | タイプ | 特徴 |
 |-------------|---------|------|--------|------|
-| **OpenClaw** | 306k | TypeScript | AIエージェント | 基盤プロジェクト、MCP・AWS EC2 対応 |
-| **Nanobot** | 32k | Python | AIエージェント | マルチインスタンス、超軽量 |
-| **ZeroClaw** | 26k | Rust | AIエージェント | メモリ使用 ~5MB、高速起動 |
-| **PicoClaw** | 24k | Go | Edge/IoT | ゲートウェイノード、低コストハードウェア |
-| **AstrBot** | 22k | Python | チャットボット | IM プラットフォーム対応（TG、WhatsApp） |
-| **NanoClaw** | 21k | TypeScript | AIエージェント | コンテナ化、ビジネスメッセンジャー向け |
-| **IronClaw** | 9.6k | Rust | AIエージェント | WASM サンドボックス、最大分離 |
+| [**OpenClaw**](https://github.com/openclaw/openclaw) | 306k | TypeScript | AIエージェント | 基盤プロジェクト、MCP・AWS EC2 対応 |
+| [**Nanobot**](https://github.com/HKUDS/nanobot) | 32k | Python | AIエージェント | マルチインスタンス、超軽量 |
+| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | 26k | Rust | AIエージェント | メモリ使用 ~5MB、高速起動 |
+| [**PicoClaw**](https://github.com/sipeed/picoclaw) | 24k | Go | Edge/IoT | ゲートウェイノード、低コストハードウェア |
+| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | 22k | Python | チャットボット | IM プラットフォーム対応（TG、WhatsApp） |
+| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | 21k | TypeScript | AIエージェント | コンテナ化、ビジネスメッセンジャー向け |
+| [**IronClaw**](https://github.com/nearai/ironclaw) | 9.6k | Rust | AIエージェント | WASM サンドボックス、最大分離 |
 
 ## 🛠 ニッチ代替と「マイクロロブスター」
 
@@ -41,15 +41,15 @@ GitHub の人気・活動度でソート（2026年3月データ）。
 
 ### パフォーマンスと Edge
 
-- **NullClaw** (Zig)：驚異的な性能。678KB バイナリ、起動 <2ms。Arduino・RPi 対応。
-- **MimiClaw** (C)：ESP32-S3 ベアメタルで動作。ソリューションコスト約 $5。
-- **SubZeroClaw** (C)：わずか 54KB。
+- [**NullClaw**](https://github.com/nullclaw/nullclaw) (Zig)：驚異的な性能。678KB バイナリ、起動 <2ms。Arduino・RPi 対応。
+- [**MimiClaw**](https://github.com/memovai/mimiclaw) (C)：ESP32-S3 ベアメタルで動作。ソリューションコスト約 $5。
+- [**SubZeroClaw**](https://github.com/jmlago/subzeroclaw) (C)：わずか 54KB。
 
 ### セキュリティと耐障害性
 
-- **ZeptoClaw**：Rust の 7 層セキュリティシステム。
-- **BeamClaw**：Erlang/OTP 製、分散システム向け。
-- **Safeclaw**：LLM 不要（意図認識）、100% 予測可能性を保証。
+- [**ZeptoClaw**](https://github.com/qhkm/zeptoclaw)：Rust の 7 層セキュリティシステム。
+- [**BeamClaw**](https://github.com/peterdmv/beamclaw)：Erlang/OTP 製、分散システム向け。
+- [**Safeclaw**](https://github.com/princezuda/safeclaw)：LLM 不要（意図認識）、100% 予測可能性を保証。
 
 ## 🚀 クイックスタート
 

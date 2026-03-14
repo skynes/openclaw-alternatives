@@ -14,12 +14,12 @@
 
 | 目标 | 推荐项目 | 原因 |
 |------|-----------|------|
-| **通用选择** | **Nanobot** | 黄金平衡：Python、活跃社区、多实例支持，对硬件要求不高（RAM 300MB+） |
-| **最大性能** | **OpenClaw** | 行业标准。15+ 通信渠道、语音、Canvas 支持，RAM 2GB+ |
-| **弱机运行** | **ZeroClaw** | Rust 引擎，仅消耗 ~5MB RAM |
-| **IoT 与边缘** | **PicoClaw** | 可在 $10 硬件上运行（ESP32 等） |
-| **安全性** | **IronClaw** | WebAssembly 沙箱，注重隐私保护 |
-| **极简主义** | **TinyClaw** | 仅 400 行代码，适合学习 |
+| **通用选择** | [**Nanobot**](https://github.com/HKUDS/nanobot) | 黄金平衡：Python、活跃社区、多实例支持，对硬件要求不高（RAM 300MB+） |
+| **最大性能** | [**OpenClaw**](https://github.com/openclaw/openclaw) | 行业标准。15+ 通信渠道、语音、Canvas 支持，RAM 2GB+ |
+| **弱机运行** | [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | Rust 引擎，仅消耗 ~5MB RAM |
+| **IoT 与边缘** | [**PicoClaw**](https://github.com/sipeed/picoclaw) | 可在 $10 硬件上运行（ESP32 等） |
+| **安全性** | [**IronClaw**](https://github.com/nearai/ironclaw) | WebAssembly 沙箱，注重隐私保护 |
+| **极简主义** | [**TinyClaw**](https://github.com/jlia0/tinyclaw) | 仅 400 行代码，适合学习 |
 
 ## 📊 对比表
 
@@ -27,13 +27,13 @@
 
 | 项目 | ⭐ Stars | 语言 | 类型 | 特点 |
 |------|---------|------|------|------|
-| **OpenClaw** | 306k | TypeScript | AI 代理 | 基础项目，支持 MCP 和 AWS EC2 |
-| **Nanobot** | 32k | Python | AI 代理 | 多实例、超轻量 |
-| **ZeroClaw** | 26k | Rust | AI 代理 | 内存占用 ~5MB，快速启动 |
-| **PicoClaw** | 24k | Go | Edge/IoT | 作为网关节点，廉价硬件 |
-| **AstrBot** | 22k | Python | 聊天机器人 | 专注 IM 平台（TG、WhatsApp） |
-| **NanoClaw** | 21k | TypeScript | AI 代理 | 容器化，专注商业通讯 |
-| **IronClaw** | 9.6k | Rust | AI 代理 | WASM 沙箱，最大隔离 |
+| [**OpenClaw**](https://github.com/openclaw/openclaw) | 306k | TypeScript | AI 代理 | 基础项目，支持 MCP 和 AWS EC2 |
+| [**Nanobot**](https://github.com/HKUDS/nanobot) | 32k | Python | AI 代理 | 多实例、超轻量 |
+| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | 26k | Rust | AI 代理 | 内存占用 ~5MB，快速启动 |
+| [**PicoClaw**](https://github.com/sipeed/picoclaw) | 24k | Go | Edge/IoT | 作为网关节点，廉价硬件 |
+| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | 22k | Python | 聊天机器人 | 专注 IM 平台（TG、WhatsApp） |
+| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | 21k | TypeScript | AI 代理 | 容器化，专注商业通讯 |
+| [**IronClaw**](https://github.com/nearai/ironclaw) | 9.6k | Rust | AI 代理 | WASM 沙箱，最大隔离 |
 
 ## 🛠 小众替代与「微型龙虾」
 
@@ -41,15 +41,15 @@
 
 ### 性能与边缘
 
-- **NullClaw** (Zig)：性能出色。678KB 二进制，启动 <2ms。适用于 Arduino 和 RPi。
-- **MimiClaw** (C)：在 ESP32-S3 裸机上运行。方案成本约 $5。
-- **SubZeroClaw** (C)：仅 54KB。
+- [**NullClaw**](https://github.com/nullclaw/nullclaw) (Zig)：性能出色。678KB 二进制，启动 <2ms。适用于 Arduino 和 RPi。
+- [**MimiClaw**](https://github.com/memovai/mimiclaw) (C)：在 ESP32-S3 裸机上运行。方案成本约 $5。
+- [**SubZeroClaw**](https://github.com/jmlago/subzeroclaw) (C)：仅 54KB。
 
 ### 安全与容错
 
-- **ZeptoClaw**：Rust 七层安全架构。
-- **BeamClaw**：Erlang/OTP 编写，面向分布式系统。
-- **Safeclaw**：无 LLM（意图识别），保证 100% 可预测性。
+- [**ZeptoClaw**](https://github.com/qhkm/zeptoclaw)：Rust 七层安全架构。
+- [**BeamClaw**](https://github.com/peterdmv/beamclaw)：Erlang/OTP 编写，面向分布式系统。
+- [**Safeclaw**](https://github.com/princezuda/safeclaw)：无 LLM（意图识别），保证 100% 可预测性。
 
 ## 🚀 快速开始
 
