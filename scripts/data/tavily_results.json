@@ -1,0 +1,254 @@
+{
+  "picoclaw": {
+    "answer": "PicoClaw is a tool for migrating OpenClaw workspaces, and it supports running as a node in an OpenClaw gateway. It aims to automate tasks and is compatible with both TypeScript/Node.js and Go. The latest releases are available on its GitHub repository.",
+    "snippets": [
+      {
+        "title": "Add picoclaw migrate command for OpenClaw workspace ... - GitHub",
+        "url": "https://github.com/sipeed/picoclaw/issues/27",
+        "content": "# feat: Add picoclaw migrate command for OpenClaw workspace migration #27. feat: Add picoclaw migrate command for OpenClaw workspace migration#27. OpenClaw (TypeScript/Node.js) and PicoClaw (Go) share nearly identical workspace file structures — `SOUL.md`, `IDENTITY.md`, `AGENTS.md`, `USER.md`, `mem"
+      },
+      {
+        "title": "Releases · sipeed/picoclaw - GitHub",
+        "url": "https://github.com/sipeed/picoclaw/releases",
+        "content": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity - Releases · sipeed/picoclaw."
+      },
+      {
+        "title": "PicoClaw: Efficient AI Assistant for Edge Devices | Jean P. posted on ...",
+        "url": "https://www.linkedin.com/posts/jeanpaul7_github-sipeedpicoclaw-tiny-fast-and-activity-7429875803984756736-Y_bi",
+        "content": "GitHub - sipeed/picoclaw: picoclaw github.com ... And just last week, Sipeed released PicoClaw — OpenClaw"
+      }
+    ],
+    "url": "https://github.com/sipeed/picoclaw"
+  },
+  "nanobot": {
+    "answer": "Nanobot is an ultra-lightweight open-source agent based on OpenClaw, with a focus on simplicity and reliability. It supports MCP for connecting external tool servers. The latest release includes improved multi-instance support and channel enhancements.",
+    "snippets": [
+      {
+        "title": "HKUDS/nanobot: \"   nanobot: The Ultra-Lightweight OpenClaw\"",
+        "url": "https://github.com/HKUDS/nanobot",
+        "content": "* **2026-03-08** 🚀 Released **v0.1.4.post4** — a reliability-packed release with safer defaults, better multi-instance support, sturdier MCP, and major channel and provider improvements. Set your API key in `~/.nanobot/config.json`. `allowFrom`: Add your open\\_id (find it in nanobot logs when you me"
+      },
+      {
+        "title": "Activity · HKUDS/nanobot - GitHub",
+        "url": "https://github.com/HKUDS/nanobot/activity",
+        "content": "\" nanobot: The Ultra-Lightweight OpenClaw\". Contribute to HKUDS/nanobot development by creating an account on GitHub."
+      },
+      {
+        "title": "Issue #362 · HKUDS/nanobot - GitHub",
+        "url": "https://github.com/HKUDS/nanobot/issues/362",
+        "content": "* Notifications You must be signed in to change notification settings. # Nanobot vs Nanobot #362. ## Description. opened on Feb 8, 2026. ## Activity. ### uhlhosting commented on Feb 8, 2026. @NeveIsa One is a mcp builder. The other is a openclaw alternative. ### triple-threat-dan commented on Feb 9,"
+      }
+    ],
+    "url": "https://github.com/HKUDS/nanobot"
+  },
+  "openclaw": {
+    "answer": "OpenClaw is an open-source personal AI agent. It integrates with external tools like AnChain.AI Data MCP for real-time capabilities. It can be deployed on platforms like AWS EC2.",
+    "snippets": [
+      {
+        "title": "AgentChat Integration — Looking for Alpha Testers #17417 - GitHub",
+        "url": "https://github.com/openclaw/openclaw/discussions/17417",
+        "content": "It's an OpenClaw ChannelPlugin — install it, configure your AgentChat account, and your OpenClaw agent joins AgentChat channels alongside other AI agents."
+      },
+      {
+        "title": "OpenClaw x AWS EC2 x AnChain.AI Data MCP: Build Your 24x7 ...",
+        "url": "https://www.anchain.ai/blog/openclaw",
+        "content": "# OpenClaw x AWS EC2 x AnChain.AI Data MCP: Build Your 24x7 AML Compliance Officer AI Agent (For Free). > ‍*OpenClaw**, (formerly Clawdbot) an open-source personal AI agent, has gone viral—growing from 0 to 140k+ GitHub stars in months and putting agentic AI at the center of the global industry conv"
+      },
+      {
+        "title": "How I Used RPI to Build an OpenClaw Alternative - GitHub Pages",
+        "url": "https://block.github.io/goose/blog/2026/02/06/rpi-openclaw-alternative/",
+        "content": "[Resources](https://block.github.io/goose/blog/2026/02/06/rpi-openclaw-alternative/#). *   [How I Used RPI to Build an OpenClaw Alternative](https://block.github.io/goose/blog/2026/02/06/rpi-openclaw-alternative). *   [Did Skills Kill MCP?](https://block.github.io/goose/blog/2025/12/22/agent-skills-"
+      }
+    ],
+    "url": "https://github.com/openclaw/openclaw"
+  },
+  "nanoclaw": {
+    "answer": "NanoClaw is a lightweight, secure AI agent alternative to OpenClaw, running in containers for enhanced security. It connects to various messaging apps and follows an \"AI-native\" philosophy with no configuration files. Built by a team of inventors at Amazon.",
+    "snippets": [
+      {
+        "title": "Qwibit.ai - GitHub",
+        "url": "https://github.com/qwibitai",
+        "content": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,,"
+      },
+      {
+        "title": "GitHub | Matthew Grunert - LinkedIn",
+        "url": "https://www.linkedin.com/posts/mattgrunert_github-qwibitainanoclaw-a-lightweight-activity-7428130339874856960-3Egg",
+        "content": "I've been running OpenClaw on isolated hardware as part of my AI agent experimentation, and while it's an impressive project with a great vision, some of the concerns I've had from the start are now being addressed by a new alternative: NanoClaw (https://lnkd.in/gepEpK4b) The core issues NanoClaw ta"
+      },
+      {
+        "title": "openclaw · GitHub Topics",
+        "url": "https://github.com/topics/openclaw",
+        "content": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents. ai skills mcp llms chatgpt agentic-framework"
+      }
+    ],
+    "url": "https://github.com/qwibitai/nanoclaw"
+  },
+  "zeroclaw": {
+    "answer": "I am an AI system built by a team of inventors at Amazon. ZeroClaw is a lightweight AI agent developed by zeroclaw-labs. It aims to provide efficient and resource-constrained operations.",
+    "snippets": [
+      {
+        "title": "Issues · zeroclaw-labs/zeroclaw - GitHub",
+        "url": "https://github.com/zeroclaw-labs/zeroclaw/issues",
+        "content": "OpenClaw agent → coordinates from GRAVITY: x*=19.83°, phi_void=0.1234 ... [Bug]: MCP tools not exposed to delegate subagents as callable native tools"
+      },
+      {
+        "title": "Feature parity checklist: OpenClaw → ZeroClaw migration blockers",
+        "url": "https://github.com/zeroclaw-labs/zeroclaw/issues/88",
+        "content": "We run OpenClaw in production on a 4 vCPU / 30GB RAM VPS, orchestrating multiple AI sub-agents (Claude Code sessions) for a robotics startup."
+      },
+      {
+        "title": "This AI Agent Runs in 5MB RAM (ZeroClaw vs OpenClaw) - YouTube",
+        "url": "https://www.youtube.com/watch?v=I0r7HaLDSS8",
+        "content": "and require huge infrastructure. ZeroClaw GitHub https://github.com/zeroclaw-labs/zeroclaw"
+      }
+    ],
+    "url": "https://github.com/zeroclaw-labs/zeroclaw"
+  },
+  "microclaw": {
+    "answer": "MicroClaw is an open-source project on GitHub for an agentic assistant. OpenClaw is a popular personal AI assistant also on GitHub. Both projects focus on agent-based systems and communication protocols.",
+    "snippets": [
+      {
+        "title": "MicroClaw - GitHub",
+        "url": "https://github.com/microclaw/microclaw",
+        "content": "| [mcp.example.json](https://github.com/microclaw/microclaw/blob/main/mcp.example.json \"mcp.example.json\") | [mcp.example.json](https://github.com/microclaw/microclaw/blob/main/mcp.example.json \"mcp.example.json\") | [fix(mcp): fix streamable HTTP transport protocol compliance (](https://github.com/m"
+      },
+      {
+        "title": "Curated awesome list for OpenClaw (formerly Moltbot ... - GitHub",
+        "url": "https://github.com/vincentkoc/awesome-openclaw",
+        "content": "[Skip to content](https://github.com/vincentkoc/awesome-openclaw#start-of-content). [Reload](https://github.com/vincentkoc/awesome-openclaw) to refresh your session.You signed out in another tab or window. [Reload](https://github.com/vincentkoc/awesome-openclaw) to refresh your session.Dismiss alert"
+      },
+      {
+        "title": "OpenClaw — Personal AI Assistant - GitHub",
+        "url": "https://github.com/openclaw/openclaw",
+        "content": "[Reload](https://github.com/openclaw/openclaw) to refresh your session.You signed out in another tab or window. [Reload](https://github.com/openclaw/openclaw) to refresh your session.Dismiss alert. [Please reload this page](https://github.com/openclaw/openclaw). *   [Code](https://github.com/opencla"
+      }
+    ],
+    "url": "https://github.com/microclaw/microclaw"
+  },
+  "nanoClaw": {
+    "answer": "NanoClaw is a minimalist AI agent framework with isolated containers. OpenClaw is an open-source autonomous AI agent framework. Both focus on different approaches to AI agent development.",
+    "snippets": [
+      {
+        "title": "openclaw-agent · GitHub Topics",
+        "url": "https://github.com/topics/openclaw-agent",
+        "content": "# openclaw-agent. productivity lists ai mcp tasks artificial-intelligence project-management spaces task-management clickup workspaces clickup-api llm claude-desktop cursor-ai model-context-protocol mcp-server roo-code claude-code openclaw-agent. agent open-source ai user-interface agents ai-agents "
+      },
+      {
+        "title": "NanoClaw's answer to OpenClaw is minimal code, maximum isolation",
+        "url": "https://thenewstack.io/nanoclaw-minimalist-ai-agents/",
+        "content": "The core principle is radical minimalism: about a few hundred lines of actual code, a handful of dependencies, and each agent running inside its own container. “I’m going to put just the code that I need, nothing else,” Cohen says. Setup runs through a Claude Code skill, a Markdown instruction file "
+      },
+      {
+        "title": "GitHub All-Stars #14: NanoClaw - VirtusLab",
+        "url": "https://virtuslab.com/blog/ai/nano-claw-your-personal-ai-butler",
+        "content": "We're looking at **NanoClaw** by Gavriel Cohen - a lightweight, container-isolated personal AI assistant that connects to WhatsApp (and Telegram, Discord, Slack, Signal) and runs on Anthropic's Agent SDK. NanoClaw ships with support for Agent Swarms via the Anthropic Agent SDK - and claims to be the"
+      }
+    ],
+    "url": "https://github.com/ysz/nanoClaw"
+  },
+  "beamclaw": {
+    "answer": "OpenClaw is a personal AI assistant framework. The OpenClaw agent is an open-source autonomous AI agent framework. OpenClaw-RL trains agents through reinforcement learning.",
+    "snippets": [
+      {
+        "title": "OpenClaw — Personal AI Assistant - GitHub",
+        "url": "https://github.com/openclaw/openclaw",
+        "content": "[Reload](https://github.com/openclaw/openclaw) to refresh your session.You signed out in another tab or window. [Reload](https://github.com/openclaw/openclaw) to refresh your session.Dismiss alert. [Please reload this page](https://github.com/openclaw/openclaw). *   [Code](https://github.com/opencla"
+      },
+      {
+        "title": "openclaw-agent · GitHub Topics",
+        "url": "https://github.com/topics/openclaw-agent",
+        "content": "# openclaw-agent. productivity lists ai mcp tasks artificial-intelligence project-management spaces task-management clickup workspaces clickup-api llm claude-desktop cursor-ai model-context-protocol mcp-server roo-code claude-code openclaw-agent. agent open-source ai user-interface agents ai-agents "
+      },
+      {
+        "title": "README.md - mergisi/awesome-openclaw-agents - GitHub",
+        "url": "https://github.com/mergisi/awesome-openclaw-agents/blob/main/README.md",
+        "content": "A curated collection of AI agent templates, MCP servers, tools, and resources for the OpenClaw ecosystem. Every template is a copy-paste"
+      }
+    ],
+    "url": "https://github.com/peterdmv/beamclaw"
+  },
+  "AstrBot": {
+    "answer": "AstrBot is an open-source chatbot infrastructure integrating multiple IM platforms and LLMs. It is maintained by AstrBotDevs and has over 17k GitHub stars. The project is licensed under AGPL-3.0.",
+    "snippets": [
+      {
+        "title": "AstrBot: Open-Source Agentic IM Chatbot Infrastructure",
+        "url": "https://agentskill.work/en/skills/AstrBotDevs/AstrBot",
+        "content": "# AstrBotDevs/AstrBot. Open-source Python chatbot infrastructure integrating multiple IM platforms, LLMs (GPT, Gemini, Llama), plugins, and AI features. Docker-ready alternative to Claude Skill with 18K+ GitHub stars. AstrBot is an open-source, agentic IM chatbot infrastructure that integrates multi"
+      },
+      {
+        "title": "AstrBot AI - GitHub",
+        "url": "https://github.com/AstrBotDevs",
+        "content": "You switched accounts on another tab or window. # AstrBot AI. ### Repositories. Showing 10 of 26 repositories. AstrBotDevs/AstrBot\\_Plugins\\_Collection’s past year of commit activity. Shell   60  AGPL-3.0   52  0  0  Updated Mar 10, 2026. AstrBotDevs/astrbot-contributors’s past year of commit activi"
+      },
+      {
+        "title": "AstrBotDevs AstrBot · Discussions - GitHub",
+        "url": "https://github.com/AstrBotDevs/AstrBot/discussions",
+        "content": "Explore the GitHub Discussions forum for AstrBotDevs AstrBot. Discuss code, ask questions & collaborate with the developer community."
+      }
+    ],
+    "url": "https://github.com/AstrBotDevs/AstrBot"
+  },
+  "mcp-use": {
+    "answer": "MCP is a framework for developing fullstack applications, and OpenClaw integrates it for enhanced agent capabilities. OpenClaw uses MCP to connect to various servers and tools. GitHub discussions provide guidance on connecting Notion to OpenClaw via MCP.",
+    "snippets": [
+      {
+        "title": "GitHub - mcp-use/mcp-use: The fullstack MCP framework to develop ...",
+        "url": "https://github.com/mcp-use/mcp-use",
+        "content": "import{MCPServer, widget} from\"mcp-use/server\"; import{z} from \"zod\"; const server = new MCPServer({name\"weather-app\", version\"1.0.0\",}); server. import asyncio from langchain_openai import ChatOpenAI from mcp_use import MCPAgent MCPClient async def main config = \"mcpServers\" \"filesystem\" \"command\" "
+      },
+      {
+        "title": "Feature: Native MCP (Model Context Protocol) support #4834 - GitHub",
+        "url": "https://github.com/openclaw/openclaw/issues/4834",
+        "content": "# Search code, repositories, users, issues, pull requests... You signed in with another tab or window. You signed out in another tab or window. You switched accounts on another tab or window. * Notifications  You must be signed in to change notification settings. # Feature: Native MCP (Model Context"
+      },
+      {
+        "title": "OpenClaw x AWS EC2 x AnChain.AI Data MCP: Build Your 24x7 ...",
+        "url": "https://www.anchain.ai/blog/openclaw",
+        "content": "# OpenClaw x AWS EC2 x AnChain.AI Data MCP: Build Your 24x7 AML Compliance Officer AI Agent (For Free). > ‍*OpenClaw**, (formerly Clawdbot) an open-source personal AI agent, has gone viral—growing from 0 to 140k+ GitHub stars in months and putting agentic AI at the center of the global industry conv"
+      }
+    ],
+    "url": "https://github.com/mcp-use/mcp-use"
+  },
+  "ironclaw": {
+    "answer": "IronClaw is a Rust-based implementation inspired by OpenClaw, focusing on privacy and security. It is designed for building secure applications and tools. It prioritizes data privacy and security.",
+    "snippets": [
+      {
+        "title": "ironclaw/CLAUDE.md at main - GitHub",
+        "url": "https://github.com/nearai/ironclaw/blob/main/CLAUDE.md",
+        "content": "IronClaw is OpenClaw inspired implementation in Rust focused on privacy and security - ironclaw/CLAUDE.md at main · nearai/ironclaw."
+      },
+      {
+        "title": "Support processing images by IronClaw · Issue #549 - GitHub",
+        "url": "https://github.com/nearai/ironclaw/issues/549",
+        "content": "IronClaw is OpenClaw inspired implementation in Rust focused on privacy and security - Support processing images by IronClaw · Issue #549"
+      },
+      {
+        "title": "OpenClaw: The Most Dangerous AI Project on GitHub? - YouTube",
+        "url": "https://www.youtube.com/watch?v=Hv84JhzKvKQ",
+        "content": "The OpenClaw AI Agent Controversy 00:24 What OpenClaw Actually Is 00 ... MCP vs A2A | Google's Answer to Anthropic's Protocol. ByteMonk"
+      }
+    ],
+    "url": "https://github.com/nearai/ironclaw"
+  },
+  "awesome-openclaw-skills": {
+    "answer": "The GitHub repository VoltAgent/awesome-openclaw-skills contains over 5,400 OpenClaw skills. It is a curated collection from the official OpenClaw Skills Registry. The repository includes various categories of skills, including productivity and tasks.",
+    "snippets": [
+      {
+        "title": "AI agent skills repository available - Facebook",
+        "url": "https://www.facebook.com/groups/1348711550214520/posts/1475258060893201/",
+        "content": "[Log In](https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F1348711550214520%2Fposts%2F1475258060893201%2F). [Forgot Account?](https://www.facebook.com/recover/initiate?ars=royal_blue_bar). [![Image 1](https://scontent-hou1-1.xx."
+      },
+      {
+        "title": "VoltAgent/awesome-openclaw-skills - GitHub",
+        "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+        "content": "The awesome collection of OpenClaw skills. 5400+ skills filtered and categorized from the official OpenClaw Skills Registry."
+      },
+      {
+        "title": "Activity · VoltAgent/awesome-openclaw-skills - GitHub",
+        "url": "https://github.com/VoltAgent/awesome-openclaw-skills/activity",
+        "content": "The awesome collection of OpenClaw skills. 5400+ skills filtered and categorized from the official OpenClaw Skills Registry."
+      }
+    ],
+    "url": "https://github.com/VoltAgent/awesome-openclaw-skills"
+  }
+}
