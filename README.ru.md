@@ -4,6 +4,8 @@
 
 **Переводы:** [English](README.md) · [中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
+![Обложка](cover.png)
+
 ---
 
 В этой статье мы разберём текущие проекты: от флагманского OpenClaw до экстремально легковесных решений вроде NullClaw, которые запускаются быстрее, чем вы успеете моргнуть.

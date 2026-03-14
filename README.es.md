@@ -4,6 +4,8 @@
 
 **Traducciones:** [English](README.md) · [中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
+![Portada](cover.png)
+
 ---
 
 En este resumen exploramos los proyectos actuales: desde el buque insignia OpenClaw hasta soluciones extremadamente ligeras como NullClaw que arrancan más rápido de lo que parpadeas.

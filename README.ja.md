@@ -4,6 +4,8 @@
 
 **翻訳：** [English](README.md) · [中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
+![カバー](cover.png)
+
 ---
 
 この概要では、フラッグシップの OpenClaw から、瞬きより速く起動する NullClaw のような極軽量ソリューションまで、現在のプロジェクトを紹介します。

@@ -4,6 +4,8 @@
 
 **翻译：** [English](README.md) · [中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
+![封面](cover.png)
+
 ---
 
 本文概述了当前项目：从旗舰 OpenClaw 到 NullClaw 等极轻量级解决方案，启动速度比眨眼还快。
