@@ -1,6 +1,6 @@
 # OpenClaw Ecosystem — Extended Reference
 
-*Full tables, repository links, category summary. For data update scripts, see [README.md#updating-data](README.md#updating-data).*
+*Full tables, repository links, category summary. For data update scripts, see [README.md#updating-data](README.md#updating-data). For **technical stack comparison** (MCP, skills, channels, persistence), see [comparison.md](comparison.md). For **GitHub stars by month**, see [STARS_BY_MONTH.md](STARS_BY_MONTH.md) and [scripts/data/stars_monthly_history.json](scripts/data/stars_monthly_history.json).*
 
 ---
 
@@ -9,6 +9,8 @@
 **Main:**
 - https://github.com/sipeed/picoclaw
 - https://github.com/HKUDS/nanobot
+- https://github.com/nextlevelbuilder/goclaw
+- https://github.com/NousResearch/hermes-agent
 - https://github.com/openclaw/openclaw
 - https://github.com/qwibitai/nanoclaw
 - https://github.com/zeroclaw-labs/zeroclaw
@@ -43,6 +45,8 @@
 |------|--------|
 | **Universal choice** | [**Nanobot**](https://github.com/HKUDS/nanobot) — balanced features, Python, active community |
 | Maximum features | [**OpenClaw**](https://github.com/openclaw/openclaw) — reference implementation, 15+ channels, voice, Canvas |
+| Self-improving / research | [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) — Nous Research; learning loop, MCP, gateway; OpenClaw migration |
+| Go at scale | [**GoClaw**](https://github.com/nextlevelbuilder/goclaw) — OpenClaw in Go, multi-tenant, 5-layer security, MCP |
 | Minimum RAM | [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) / [**NullClaw**](https://github.com/nullclaw/nullclaw) — ~5MB / 678KB |
 | Edge / IoT | [**PicoClaw**](https://github.com/sipeed/picoclaw) / [**MimiClaw**](https://github.com/memovai/mimiclaw) — Go / C, ESP32 |
 | Security | [**IronClaw**](https://github.com/nearai/ironclaw) / [**ZeptoClaw**](https://github.com/qhkm/zeptoclaw) — Rust, sandbox |
@@ -57,36 +61,38 @@
 
 | Project | ⭐ | 🍴 | Language | Created | Organization | Type | Docker | Description | Features |
 |---------|---:|---:|----------|---------|-------------|------|--------|-------------|----------|
-| [**OpenClaw**](https://github.com/openclaw/openclaw) | 306 700 | 58 008 | TypeScript | 2025-11 | openclaw | AI agent | ✅ | Open personal AI agent. MCP, AWS EC2. | Core ecosystem project |
-| [**awesome-openclaw-skills**](https://github.com/VoltAgent/awesome-openclaw-skills) | 36 136 | 3 440 | — | 2026-01 | VoltAgent | Resource | — | Curated OpenClaw skills collection. | 5400+ skills |
-| [**Nanobot**](https://github.com/HKUDS/nanobot) | 32 779 | 5 413 | Python | 2026-02 | HKUDS | AI agent | ✅ | Ultra-lightweight OpenClaw alternative. MCP. | Multi-instance, channels |
-| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | 26 417 | 3 444 | Rust | 2026-02 | zeroclaw-labs | AI agent | ✅ | Lightweight agent, ~5MB RAM. | OpenClaw migration |
-| [**PicoClaw**](https://github.com/sipeed/picoclaw) | 24 201 | 3 221 | Go | 2026-02 | sipeed | Migration / Edge | ✅ | Workspace migration, gateway node. | Edge, $10 hardware |
-| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | 22 482 | 1 559 | Python | 2022-12 | AstrBotDevs | Chatbot | ✅ | IM platforms, LLM (GPT, Gemini, Llama). | AGPL-3.0 |
-| [**NanoClaw** (qwibitai)](https://github.com/qwibitai/nanoclaw) | 21 941 | 4 542 | TypeScript | 2026-01 | qwibitai | AI agent | ✅ | Containers, WhatsApp, Telegram, Slack. | AI-native |
-| [**IronClaw**](https://github.com/nearai/ironclaw) | 9 635 | 1 039 | Rust | 2026-02 | nearai | AI agent | ✅ | Rust, privacy, security. | WebAssembly sandbox |
-| [**mcp-use**](https://github.com/mcp-use/mcp-use) | 9 426 | 1 156 | TypeScript | 2025-03 | mcp-use | MCP Framework | — | MCP Apps and MCP Servers. | Python/JS, LangChain |
-| [**MicroClaw**](https://github.com/microclaw/microclaw) | 557 | 97 | Rust | 2026-02 | microclaw | AI agent | ✅ | Agentic framework. | MCP, HTTP transport |
-| [**NanoClaw** (ysz)](https://github.com/ysz/nanoClaw) | 53 | 13 | Python | 2026-02 | ysz | AI agent | ✅ | Minimalism, isolated containers. | Agent Swarms |
+| [**OpenClaw**](https://github.com/openclaw/openclaw) | 357 576 | 72 640 | TypeScript | 2025-11 | openclaw | AI agent | ✅ | Open personal AI agent. MCP, AWS EC2. | Core ecosystem project |
+| [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) | 85 892 | 11 639 | Python | 2025-07 | NousResearch | AI agent | ✅ | Self-improving agent; skills, memory, gateway. | OpenClaw migration, MCP |
+| [**awesome-openclaw-skills**](https://github.com/VoltAgent/awesome-openclaw-skills) | 46 054 | 4 490 | — | 2026-01 | VoltAgent | Resource | — | Curated OpenClaw skills collection. | 5400+ skills |
+| [**Nanobot**](https://github.com/HKUDS/nanobot) | 39 549 | 6 930 | Python | 2026-02 | HKUDS | AI agent | ✅ | Ultra-lightweight OpenClaw alternative. MCP. | Multi-instance, channels |
+| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | 30 153 | 4 351 | Rust | 2026-02 | zeroclaw-labs | AI agent | ✅ | Lightweight agent, ~5MB RAM. | OpenClaw migration |
+| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | 29 976 | 2 022 | Python | 2022-12 | AstrBotDevs | Chatbot | ✅ | IM platforms, LLM (GPT, Gemini, Llama). | AGPL-3.0 |
+| [**PicoClaw**](https://github.com/sipeed/picoclaw) | 28 154 | 4 006 | Go | 2026-02 | sipeed | Migration / Edge | ✅ | Workspace migration, gateway node. | Edge, $10 hardware |
+| [**NanoClaw** (qwibitai)](https://github.com/qwibitai/nanoclaw) | 27 292 | 11 972 | TypeScript | 2026-01 | qwibitai | AI agent | ✅ | Containers, WhatsApp, Telegram, Slack. | AI-native |
+| [**IronClaw**](https://github.com/nearai/ironclaw) | 11 780 | 1 348 | Rust | 2026-02 | nearai | AI agent | ✅ | Rust, privacy, security. | WebAssembly sandbox |
+| [**mcp-use**](https://github.com/mcp-use/mcp-use) | 9 772 | 1 242 | TypeScript | 2025-03 | mcp-use | MCP Framework | — | MCP Apps and MCP Servers. | Python/JS, LangChain |
+| [**GoClaw**](https://github.com/nextlevelbuilder/goclaw) | 2 706 | 683 | Go | 2026-02 | nextlevelbuilder | AI agent | ✅ | OpenClaw rebuilt in Go. Multi-tenant, PostgreSQL. | 5-layer security, MCP |
+| [**MicroClaw**](https://github.com/microclaw/microclaw) | 649 | 120 | Rust | 2026-02 | microclaw | AI agent | ✅ | Agentic framework. | MCP, HTTP transport |
+| [**NanoClaw** (ysz)](https://github.com/ysz/nanoClaw) | 61 | 18 | Python | 2026-02 | ysz | AI agent | ✅ | Minimalism, isolated containers. | Agent Swarms |
 | [**BeamClaw**](https://github.com/peterdmv/beamclaw) | 0 | 2 | Erlang | 2026-02 | peterdmv | Gateway / MCP | ✅ | Fault-tolerant gateway, MCP host. | Erlang/OTP |
 
 ### Additional Alternatives
 
 | Project | ⭐ | 🍴 | Language | Created | Description |
 |---------|---:|---:|----------|---------|-------------|
-| [**NullClaw**](https://github.com/nullclaw/nullclaw) | 6 220 | 731 | Zig | 2026-02 | 678KB, <2ms startup, 22+ providers, Arduino/RPi |
-| [**MimiClaw**](https://github.com/memovai/mimiclaw) | 4 348 | 600 | C | 2026-02 | ESP32-S3 bare-metal, ~$5, 0.5W |
-| [**TinyClaw** (jlia0)](https://github.com/jlia0/tinyclaw) | 3 106 | 453 | TypeScript | 2026-02 | OpenClaw in 400 lines |
-| [**zclaw**](https://github.com/tnm/zclaw) | 1 908 | 156 | C | 2026-02 | ESP32, Seeed XIAO, GPIO, Telegram |
-| [**ZeroClaw** (openagen)](https://github.com/openagen/zeroclaw) | 1 542 | 216 | Rust | 2026-02 | 3.4MB, <10ms startup, trait-based |
-| [**ZeptoClaw**](https://github.com/qhkm/zeptoclaw) | 495 | 65 | Rust | 2026-02 | 7-layer security, OpenClaw migration |
-| [**TinyClaw** (warengonzaga)](https://github.com/warengonzaga/tinyclaw) | 161 | 24 | TypeScript | 2026-02 | Multi-agent, Claude Code + tmux |
-| [**HermitClaw**](https://github.com/brendanhogan/hermitclaw) | 308 | 49 | Python | 2026-02 | Autonomous research agent |
-| [**SubZeroClaw**](https://github.com/jmlago/subzeroclaw) | 113 | 13 | C | 2026-02 | Edge, ~54KB, skill-driven |
-| [**Safeclaw**](https://github.com/princezuda/safeclaw) | 102 | 10 | Python | 2026-02 | No LLM, intent recognition, $0 API |
-| [**Carapace**](https://github.com/puremachinery/carapace) | 41 | 5 | Rust | 2026-01 | Security, sandboxing |
-| [**SupaClaw**](https://github.com/vincenzodomina/supaclaw) | 49 | 8 | TypeScript | 2026-02 | OpenClaw on Supabase |
-| [**RustClaw**](https://github.com/shimaenaga1123/rustclaw) | 3 | 1 | Rust | 2026-02 | Discord AI assistant |
+| [**NullClaw**](https://github.com/nullclaw/nullclaw) | 7 195 | 843 | Zig | 2026-02 | 678KB, <2ms startup, 22+ providers, Arduino/RPi |
+| [**MimiClaw**](https://github.com/memovai/mimiclaw) | 5 174 | 757 | C | 2026-02 | ESP32-S3 bare-metal, ~$5, 0.5W |
+| [**TinyClaw** (jlia0)](https://github.com/jlia0/tinyclaw) | 3 510 | 504 | TypeScript | 2026-02 | OpenClaw in 400 lines |
+| [**zclaw**](https://github.com/tnm/zclaw) | 2 074 | 177 | C | 2026-02 | ESP32, Seeed XIAO, GPIO, Telegram |
+| [**ZeroClaw** (openagen)](https://github.com/openagen/zeroclaw) | 1 808 | 267 | Rust | 2026-02 | 3.4MB, <10ms startup, trait-based |
+| [**ZeptoClaw**](https://github.com/qhkm/zeptoclaw) | 589 | 87 | Rust | 2026-02 | 7-layer security, OpenClaw migration |
+| [**HermitClaw**](https://github.com/brendanhogan/hermitclaw) | 319 | 54 | Python | 2026-02 | Autonomous research agent |
+| [**TinyClaw** (warengonzaga)](https://github.com/warengonzaga/tinyclaw) | 218 | 33 | TypeScript | 2026-02 | Multi-agent, Claude Code + tmux |
+| [**SubZeroClaw**](https://github.com/jmlago/subzeroclaw) | 119 | 14 | C | 2026-02 | Edge, ~54KB, skill-driven |
+| [**Safeclaw**](https://github.com/princezuda/safeclaw) | 131 | 15 | Python | 2026-02 | No LLM, intent recognition, $0 API |
+| [**SupaClaw**](https://github.com/vincenzodomina/supaclaw) | 58 | 10 | TypeScript | 2026-02 | OpenClaw on Supabase |
+| [**Carapace**](https://github.com/puremachinery/carapace) | 43 | 6 | Rust | 2026-01 | Security, sandboxing |
+| [**RustClaw**](https://github.com/shimaenaga1123/rustclaw) | 4 | 1 | Rust | 2026-02 | Discord AI assistant |
 
 ---
 
@@ -95,6 +101,7 @@
 | Project | ~Time |
 |---------|-------|
 | [**OpenClaw**](https://github.com/openclaw/openclaw) | 180–300 sec |
+| [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) | 90–180 sec |
 | [**Nanobot**](https://github.com/HKUDS/nanobot) | 90–150 sec |
 | [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | 60–90 sec |
 | [**PicoClaw**](https://github.com/sipeed/picoclaw) | 90–120 sec |
@@ -110,7 +117,7 @@
 
 | Category | Projects |
 |----------|----------|
-| **Full AI agents** | [OpenClaw](https://github.com/openclaw/openclaw), [Nanobot](https://github.com/HKUDS/nanobot), [NanoClaw](https://github.com/qwibitai/nanoclaw), [NanoClaw](https://github.com/ysz/nanoClaw), [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw), [MicroClaw](https://github.com/microclaw/microclaw), [IronClaw](https://github.com/nearai/ironclaw) |
+| **Full AI agents** | [OpenClaw](https://github.com/openclaw/openclaw), [Hermes Agent](https://github.com/NousResearch/hermes-agent), [Nanobot](https://github.com/HKUDS/nanobot), [GoClaw](https://github.com/nextlevelbuilder/goclaw), [NanoClaw](https://github.com/qwibitai/nanoclaw), [NanoClaw](https://github.com/ysz/nanoClaw), [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw), [MicroClaw](https://github.com/microclaw/microclaw), [IronClaw](https://github.com/nearai/ironclaw) |
 | **Edge / IoT** | [PicoClaw](https://github.com/sipeed/picoclaw), [NullClaw](https://github.com/nullclaw/nullclaw), [zclaw](https://github.com/tnm/zclaw), [MimiClaw](https://github.com/memovai/mimiclaw), [SubZeroClaw](https://github.com/jmlago/subzeroclaw) |
 | **Gateway / MCP Host** | [BeamClaw](https://github.com/peterdmv/beamclaw) |
 | **MCP Framework** | [mcp-use](https://github.com/mcp-use/mcp-use) |
@@ -121,4 +128,4 @@
 
 ---
 
-*Stars, forks, language, creation date: GitHub API (March 2026)*
+*Stars, forks, language, creation date: GitHub API (April 2026). Discover more: [topic openclaw-alternative](https://github.com/topics/openclaw-alternative).*

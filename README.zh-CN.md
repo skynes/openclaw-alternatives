@@ -1,6 +1,6 @@
 # OpenClaw 替代方案：从巨头到微型代理
 
-*最后更新：2026 年 3 月*
+*最后更新：2026 年 4 月*
 
 **翻译：** [English](README.md) · [中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
@@ -18,24 +18,30 @@
 |------|-----------|------|
 | **通用选择** | [**Nanobot**](https://github.com/HKUDS/nanobot) | 黄金平衡：Python、活跃社区、多实例支持，对硬件要求不高（RAM 300MB+） |
 | **最大性能** | [**OpenClaw**](https://github.com/openclaw/openclaw) | 行业标准。15+ 通信渠道、语音、Canvas 支持，RAM 2GB+ |
+| **自改进 / 研究** | [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) | Nous Research：学习循环、技能与记忆、MCP、网关；可从 OpenClaw 迁移（`hermes claw migrate`） |
 | **弱机运行** | [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | Rust 引擎，仅消耗 ~5MB RAM |
 | **IoT 与边缘** | [**PicoClaw**](https://github.com/sipeed/picoclaw) | 可在 $10 硬件上运行（ESP32 等） |
 | **安全性** | [**IronClaw**](https://github.com/nearai/ironclaw) | WebAssembly 沙箱，注重隐私保护 |
+| **Go / 规模化** | [**GoClaw**](https://github.com/nextlevelbuilder/goclaw) | 以 Go 重写的 OpenClaw：多租户隔离、五层安全、原生并发 |
 | **极简主义** | [**TinyClaw**](https://github.com/jlia0/tinyclaw) | 仅 400 行代码，适合学习 |
 
 ## 📊 对比表
 
-按 GitHub 人气和活跃度排序（2026 年 3 月数据）。
+按 GitHub 人气和活跃度排序（2026 年 4 月数据）。
 
 | 项目 | ⭐ Stars | 语言 | 类型 | 特点 |
 |------|---------|------|------|------|
-| [**OpenClaw**](https://github.com/openclaw/openclaw) | 306k | TypeScript | AI 代理 | 基础项目，支持 MCP 和 AWS EC2 |
-| [**Nanobot**](https://github.com/HKUDS/nanobot) | 32k | Python | AI 代理 | 多实例、超轻量 |
-| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | 26k | Rust | AI 代理 | 内存占用 ~5MB，快速启动 |
-| [**PicoClaw**](https://github.com/sipeed/picoclaw) | 24k | Go | Edge/IoT | 作为网关节点，廉价硬件 |
-| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | 22k | Python | 聊天机器人 | 专注 IM 平台（TG、WhatsApp） |
-| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | 21k | TypeScript | AI 代理 | 容器化，专注商业通讯 |
-| [**IronClaw**](https://github.com/nearai/ironclaw) | 9.6k | Rust | AI 代理 | WASM 沙箱，最大隔离 |
+| [**OpenClaw**](https://github.com/openclaw/openclaw) | 357k | TypeScript | AI 代理 | 基础项目，支持 MCP 和 AWS EC2 |
+| [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) | 86k | Python | AI 代理 | 学习循环、技能、网关、OpenClaw 迁移 |
+| [**Nanobot**](https://github.com/HKUDS/nanobot) | 39k | Python | AI 代理 | 多实例、超轻量 |
+| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | 30k | Rust | AI 代理 | 内存占用 ~5MB，快速启动 |
+| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | 29k | Python | 聊天机器人 | 专注 IM 平台（TG、WhatsApp） |
+| [**PicoClaw**](https://github.com/sipeed/picoclaw) | 28k | Go | Edge/IoT | 作为网关节点，廉价硬件 |
+| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | 27k | TypeScript | AI 代理 | 容器化，专注商业通讯 |
+| [**IronClaw**](https://github.com/nearai/ironclaw) | 11.8k | Rust | AI 代理 | WASM 沙箱，最大隔离 |
+| [**GoClaw**](https://github.com/nextlevelbuilder/goclaw) | 2.7k | Go | AI 代理 | 多租户、五层安全、MCP、Postgres |
+
+*星标为约数；精确值见 [scripts/data/github_stats.json](scripts/data/github_stats.json)。实时星标徽章：[shields.io](https://shields.io/badges/git-hub-repo-stars)（`https://img.shields.io/github/stars/<owner>/<repo>`）。*
 
 ## 🛠 小众替代与「微型龙虾」
 
@@ -93,6 +99,7 @@ git clone https://github.com/openclaw/openclaw.git && cd openclaw
 ## 实用资源
 
 - **Skills / 资源：** [clawhub](https://github.com/clawhub) / [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
+- **更多仓库：** GitHub 话题 [`openclaw-alternative`](https://github.com/topics/openclaw-alternative)
 
 ---
 

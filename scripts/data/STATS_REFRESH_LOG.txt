@@ -1,0 +1,33 @@
+GitHub stats refresh (compare snapshot vs current run)
+Before: github_stats_before_refresh.json
+After:  github_stats.json
+
+Per repo (stars / forks):
+
+- AstrBot: 22482->29977 stars (+7495); 1559->2022 forks (+463)
+- awesome-openclaw-skills: 36136->46058 stars (+9922); 3440->4490 forks (+1050)
+- beamclaw: 0->0 stars (+0); 2->2 forks (+0)
+- carapace: 41->43 stars (+2); 5->6 forks (+1)
+- goclaw: NEW -> 2706 stars, 683 forks
+- hermes-agent: NEW -> 86011 stars, 11654 forks
+- hermitclaw: 308->319 stars (+11); 49->54 forks (+5)
+- ironclaw: 9635->11780 stars (+2145); 1039->1348 forks (+309)
+- mcp-use: 9426->9772 stars (+346); 1156->1242 forks (+86)
+- microclaw: 557->649 stars (+92); 97->120 forks (+23)
+- mimiclaw: 4348->5174 stars (+826); 600->757 forks (+157)
+- nanobot: 32779->39552 stars (+6773); 5413->6929 forks (+1516)
+- nanoClaw: 53->61 stars (+8); 13->18 forks (+5)
+- nanoclaw: 21941->27292 stars (+5351); 4542->11974 forks (+7432)
+- nullclaw: 6220->7195 stars (+975); 731->843 forks (+112)
+- openclaw: 306700->357587 stars (+50887); 58008->72643 forks (+14635)
+- picoclaw: 24201->28154 stars (+3953); 3221->4006 forks (+785)
+- rustclaw: 3->4 stars (+1); 1->1 forks (+0)
+- safeclaw: 102->131 stars (+29); 10->15 forks (+5)
+- subzeroclaw: 113->119 stars (+6); 13->14 forks (+1)
+- supaclaw: 49->58 stars (+9); 8->10 forks (+2)
+- tinyclaw: 161->217 stars (+56); 24->33 forks (+9)
+- tinyclaw-400: 3106->3510 stars (+404); 453->504 forks (+51)
+- zclaw: 1908->2074 stars (+166); 156->177 forks (+21)
+- zeptoclaw: 495->589 stars (+94); 65->87 forks (+22)
+- zeroclaw: 26417->30153 stars (+3736); 3444->4351 forks (+907)
+- zeroclaw-openagen: 1542->1808 stars (+266); 216->267 forks (+51)

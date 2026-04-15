@@ -1,6 +1,6 @@
 # OpenClaw-Alternativen: Von Giganten zu Mikro-Agenten
 
-*Zuletzt aktualisiert: März 2026*
+*Zuletzt aktualisiert: April 2026*
 
 **Übersetzungen:** [English](README.md) · [中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
@@ -18,24 +18,30 @@ Wenn du schnell loslegen willst: Hier die Empfehlungen:
 |------|---------------------|--------|
 | **Universelle Wahl** | [**Nanobot**](https://github.com/HKUDS/nanobot) | Goldene Mitte: Python, aktive Community, Multi-Instanz-Support, geringe Hardware-Anforderungen (RAM 300MB+) |
 | **Maximale Leistung** | [**OpenClaw**](https://github.com/openclaw/openclaw) | Der Standard, mehr braucht man nicht zu sagen. 15+ Kommunikationskanäle, Sprache, Canvas-Support, RAM 2GB+ |
+| **Selbstverbesserung / Forschung** | [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) | Nous Research: Lernschleife, Skills & Gedächtnis, MCP, Gateway; Migration von OpenClaw (`hermes claw migrate`) |
 | **Für schwache Rechner** | [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | Rust-Engine, verbraucht nur ~5MB RAM |
 | **IoT und Edge** | [**PicoClaw**](https://github.com/sipeed/picoclaw) | Läuft auf Hardware für $10 (ESP32 und ähnlich) |
 | **Sicherheit** | [**IronClaw**](https://github.com/nearai/ironclaw) | WebAssembly-Sandbox und paranoider Ansatz zur Privatsphäre |
+| **Go / Skalierung** | [**GoClaw**](https://github.com/nextlevelbuilder/goclaw) | OpenClaw in Go: Multi-Tenant, 5-Schicht-Sicherheit, native Nebenläufigkeit |
 | **Minimalismus** | [**TinyClaw**](https://github.com/jlia0/tinyclaw) | Nur 400 Zeilen Code. Ideal zum Lernen |
 
 ## 📊 Vergleichstabelle
 
-Sortiert nach Beliebtheit und Projektaktivität auf GitHub (Daten Stand März 2026).
+Sortiert nach Beliebtheit und Projektaktivität auf GitHub (Daten Stand April 2026).
 
 | Projekt | ⭐ Stars | Sprache | Typ | Merkmale |
 |---------|---------|---------|-----|----------|
-| [**OpenClaw**](https://github.com/openclaw/openclaw) | 306k | TypeScript | KI-Agent | Basisprojekt, MCP- und AWS-EC2-Support |
-| [**Nanobot**](https://github.com/HKUDS/nanobot) | 32k | Python | KI-Agent | Multi-Instanz, ultra-leichtgewichtig |
-| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | 26k | Rust | KI-Agent | Speicherverbrauch ~5MB, schneller Start |
-| [**PicoClaw**](https://github.com/sipeed/picoclaw) | 24k | Go | Edge/IoT | Läuft als Knoten im Gateway, günstige Hardware |
-| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | 22k | Python | Chatbot | Fokus auf IM-Plattformen (TG, WhatsApp) |
-| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | 21k | TypeScript | KI-Agent | Containerisierung, Fokus auf Business-Messenger |
-| [**IronClaw**](https://github.com/nearai/ironclaw) | 9.6k | Rust | KI-Agent | WASM-Sandbox, maximale Isolation |
+| [**OpenClaw**](https://github.com/openclaw/openclaw) | 357k | TypeScript | KI-Agent | Basisprojekt, MCP- und AWS-EC2-Support |
+| [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) | 86k | Python | KI-Agent | Lernschleife, Skills, Gateway, OpenClaw-Migration |
+| [**Nanobot**](https://github.com/HKUDS/nanobot) | 39k | Python | KI-Agent | Multi-Instanz, ultra-leichtgewichtig |
+| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | 30k | Rust | KI-Agent | Speicherverbrauch ~5MB, schneller Start |
+| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | 29k | Python | Chatbot | Fokus auf IM-Plattformen (TG, WhatsApp) |
+| [**PicoClaw**](https://github.com/sipeed/picoclaw) | 28k | Go | Edge/IoT | Läuft als Knoten im Gateway, günstige Hardware |
+| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | 27k | TypeScript | KI-Agent | Containerisierung, Fokus auf Business-Messenger |
+| [**IronClaw**](https://github.com/nearai/ironclaw) | 11.8k | Rust | KI-Agent | WASM-Sandbox, maximale Isolation |
+| [**GoClaw**](https://github.com/nextlevelbuilder/goclaw) | 2.7k | Go | KI-Agent | Multi-Tenant, 5-Schicht-Sicherheit, MCP, Postgres |
+
+*Gerundete Sterne; exakte Werte: [scripts/data/github_stats.json](scripts/data/github_stats.json). Live-Badges: [shields.io](https://shields.io/badges/git-hub-repo-stars) (`https://img.shields.io/github/stars/<owner>/<repo>`).*
 
 ## 🛠 Nischen-Alternativen und «Mikro-Hummer»
 
@@ -93,6 +99,7 @@ git clone https://github.com/openclaw/openclaw.git && cd openclaw
 ## Nützliche Ressourcen
 
 - **Skills / Ressourcen:** [clawhub](https://github.com/clawhub) / [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
+- **Weitere Repos:** GitHub-Thema [`openclaw-alternative`](https://github.com/topics/openclaw-alternative)
 
 ---
 

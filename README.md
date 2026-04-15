@@ -1,6 +1,6 @@
 # OpenClaw Alternatives: From Giants to Micro-Agents
 
-*Last updated: March 2026*
+*Last updated: April 2026*
 
 **Translations:** [English](README.md) · [中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
@@ -19,27 +19,32 @@ If you need to get up and running quickly, here's what we're here for:
 | --------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | **Universal choice**  | **[Nanobot](https://github.com/HKUDS/nanobot)**           | Golden mean: Python, active community, multi-instance support, not very demanding on hardware (RAM 300MB+) |
 | **Maximum power**     | **[OpenClaw](https://github.com/openclaw/openclaw)**      | The standard, and that says it all. 15+ communication channels, voice, Canvas support, RAM 2GB+            |
+| **Self-improving / research** | **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** | Nous Research: learning loop, skills & memory, MCP, multi-platform gateway; `hermes claw migrate` from OpenClaw |
 | **For weak machines** | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | Rust engine, consumes only ~5MB RAM                                                                        |
 | **IoT and Edge**      | **[PicoClaw](https://github.com/sipeed/picoclaw)**        | Runs on hardware for $10 (ESP32 and similar)                                                               |
 | **Security**          | **[IronClaw](https://github.com/nearai/ironclaw)**        | WebAssembly sandbox and paranoid approach to privacy                                                       |
+| **Go / scale**        | **[GoClaw](https://github.com/nextlevelbuilder/goclaw)** | OpenClaw rebuilt in Go: multi-tenant isolation, 5-layer security, native concurrency                        |
 | **Minimalism**        | **[TinyClaw](https://github.com/jlia0/tinyclaw)**         | Just 400 lines of code. Perfect for learning                                                               |
 
 
 ## 📊 Comparison Table
 
-Sorting by popularity and project activity on GitHub (data as of March 2026).
+Sorting by popularity and project activity on GitHub (data as of April 2026).
 
 
 | Project                                                   | ⭐ Stars | Language   | Type     | Features                                       |
 | --------------------------------------------------------- | ------- | ---------- | -------- | ---------------------------------------------- |
-| **[OpenClaw](https://github.com/openclaw/openclaw)**      | 306k    | TypeScript | AI-agent | Base project, MCP and AWS EC2 support          |
-| **[Nanobot](https://github.com/HKUDS/nanobot)**           | 32k     | Python     | AI-agent | Multi-instance, ultra-lightweight              |
-| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 26k     | Rust       | AI-agent | Memory usage ~5MB, fast startup                |
-| **[PicoClaw](https://github.com/sipeed/picoclaw)**        | 24k     | Go         | Edge/IoT | Works as a node in gateway, cheap hardware     |
-| **[AstrBot](https://github.com/AstrBotDevs/AstrBot)**     | 22k     | Python     | Chatbot  | Focus on IM platforms (TG, WhatsApp)           |
-| **[NanoClaw](https://github.com/qwibitai/nanoclaw)**      | 21k     | TypeScript | AI-agent | Containerization, focus on business messengers |
-| **[IronClaw](https://github.com/nearai/ironclaw)**        | 9.6k    | Rust       | AI-agent | WASM sandbox, maximum isolation                |
+| **[OpenClaw](https://github.com/openclaw/openclaw)**      | 357k    | TypeScript | AI-agent | Base project, MCP and AWS EC2 support          |
+| **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** | 86k | Python     | AI-agent | Learning loop, skills, gateway, OpenClaw migration |
+| **[Nanobot](https://github.com/HKUDS/nanobot)**           | 39k     | Python     | AI-agent | Multi-instance, ultra-lightweight              |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 30k     | Rust       | AI-agent | Memory usage ~5MB, fast startup                |
+| **[AstrBot](https://github.com/AstrBotDevs/AstrBot)**     | 29k     | Python     | Chatbot  | Focus on IM platforms (TG, WhatsApp)           |
+| **[PicoClaw](https://github.com/sipeed/picoclaw)**        | 28k     | Go         | Edge/IoT | Works as a node in gateway, cheap hardware     |
+| **[NanoClaw](https://github.com/qwibitai/nanoclaw)**      | 27k     | TypeScript | AI-agent | Containerization, focus on business messengers |
+| **[IronClaw](https://github.com/nearai/ironclaw)**        | 11.8k   | Rust       | AI-agent | WASM sandbox, maximum isolation                |
+| **[GoClaw](https://github.com/nextlevelbuilder/goclaw)**  | 2.7k    | Go         | AI-agent | Multi-tenant, 5-layer security, MCP, Postgres  |
 
+*Rounded star counts; exact figures: [scripts/data/github_stats.json](scripts/data/github_stats.json). Live star badges: [shields.io](https://shields.io/badges/git-hub-repo-stars) (`https://img.shields.io/github/stars/<owner>/<repo>`).*
 
 ## 🛠 Niche Alternatives and «Micro-Lobsters»
 
@@ -97,6 +102,7 @@ git clone https://github.com/openclaw/openclaw.git && cd openclaw
 ## Useful Resources
 
 - **Skills / Resources:** [clawhub](https://github.com/clawhub) / [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
+- **Discover more repos:** GitHub topic [`openclaw-alternative`](https://github.com/topics/openclaw-alternative)
 
 ---
 
@@ -110,6 +116,14 @@ python scripts/fetch_github_stats.py
 
 Results → `scripts/data/github_stats.json`
 
+To record **before → after** stars/forks, copy the current file to `scripts/data/github_stats_before_refresh.json`, then run the script again; a diff is written to `scripts/data/STATS_REFRESH_LOG.txt` when that snapshot exists.
+
+**Monthly star history (comparison by month):**
+
+- Data: [scripts/data/stars_monthly_history.json](scripts/data/stars_monthly_history.json)
+- Human-readable table: [STARS_BY_MONTH.md](STARS_BY_MONTH.md)
+- After each monthly fetch: `python scripts/append_stars_monthly.py` then `python scripts/render_stars_by_month_md.py`
+
 **Tavily (project descriptions):**
 
 ```powershell
@@ -120,6 +134,8 @@ python scripts/compare_projects.py
 Results → `scripts/data/tavily_results.json`
 
 For full repository links, extended tables, and category summary, see [REFERENCE.md](REFERENCE.md).
+
+**Technical stack & integration comparison** (MCP, skills, APIs, persistence, deployment): [comparison.md](comparison.md).
 
 ---
 

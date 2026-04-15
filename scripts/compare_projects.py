@@ -17,6 +17,7 @@ PROJECTS = [
     {"name": "picoclaw", "org": "sipeed", "url": "https://github.com/sipeed/picoclaw"},
     {"name": "nanobot", "org": "HKUDS", "url": "https://github.com/HKUDS/nanobot"},
     {"name": "openclaw", "org": "openclaw", "url": "https://github.com/openclaw/openclaw"},
+    {"name": "hermes-agent", "org": "NousResearch", "url": "https://github.com/NousResearch/hermes-agent"},
     {"name": "nanoclaw", "org": "qwibitai", "url": "https://github.com/qwibitai/nanoclaw"},
     {"name": "zeroclaw", "org": "zeroclaw-labs", "url": "https://github.com/zeroclaw-labs/zeroclaw"},
     {"name": "microclaw", "org": "microclaw", "url": "https://github.com/microclaw/microclaw"},
@@ -25,6 +26,7 @@ PROJECTS = [
     {"name": "AstrBot", "org": "AstrBotDevs", "url": "https://github.com/AstrBotDevs/AstrBot"},
     {"name": "mcp-use", "org": "mcp-use", "url": "https://github.com/mcp-use/mcp-use"},
     {"name": "ironclaw", "org": "nearai", "url": "https://github.com/nearai/ironclaw"},
+    {"name": "goclaw", "org": "nextlevelbuilder", "url": "https://github.com/nextlevelbuilder/goclaw"},
     {"name": "awesome-openclaw-skills", "org": "VoltAgent", "url": "https://github.com/VoltAgent/awesome-openclaw-skills"},
 ]
 

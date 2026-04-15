@@ -11,6 +11,9 @@ __pycache__/
 venv/
 *.egg-info/
 
+# Local snapshot for STATS_REFRESH_LOG.txt (optional; copy github_stats.json here before a refresh)
+scripts/data/github_stats_before_refresh.json
+
 # IDE
 .idea/
 .vscode/

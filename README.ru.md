@@ -1,6 +1,6 @@
 # OpenClaw-альтернативы: от гигантов до микро-агентов
 
-*Обновлено: март 2026*
+*Обновлено: апрель 2026*
 
 **Переводы:** [English](README.md) · [中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
@@ -18,24 +18,30 @@
 |------|----------------------|-------------------|
 | **Универсальный выбор** | [**Nanobot**](https://github.com/HKUDS/nanobot) | Золотая середина: Python, активное комьюнити, поддержка мульти-инстансов, не очень требовательный к железу (RAM 300MB+) |
 | **Максимум мощи** | [**OpenClaw**](https://github.com/openclaw/openclaw) | Стандарт и этим всё сказано. 15+ каналов связи, голос, работа с Canvas, RAM 2GB+ |
+| **Самообучение / исследования** | [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) | Nous Research: цикл обучения, skills и память, MCP, шлюз; миграция с OpenClaw (`hermes claw migrate`) |
 | **Для слабых машин** | [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | Rust-движок, потребляет всего ~5MB RAM |
 | **IoT и Edge** | [**PicoClaw**](https://github.com/sipeed/picoclaw) | Запускается на железе за $10 (ESP32 и аналоги) |
 | **Безопасность** | [**IronClaw**](https://github.com/nearai/ironclaw) | Песочница на WebAssembly и параноидальный подход к приватности |
+| **Go / масштаб** | [**GoClaw**](https://github.com/nextlevelbuilder/goclaw) | OpenClaw на Go: мульти-тенант, 5 уровней безопасности, нативная конкурентность |
 | **Минимализм** | [**TinyClaw**](https://github.com/jlia0/tinyclaw) | Всего 400 строк кода. Идеально для обучения |
 
 ## 📊 Сравнительная таблица проектов
 
-Сортировка выполнена по популярности и активности проектов на GitHub (данные на март 2026 года).
+Сортировка выполнена по популярности и активности проектов на GitHub (данные на апрель 2026).
 
 | Проект | ⭐ Stars | Язык | Тип | Особенности |
 |--------|---------|------|-----|-------------|
-| [**OpenClaw**](https://github.com/openclaw/openclaw) | 306k | TypeScript | AI-агент | Базовый проект, поддержка MCP и AWS EC2 |
-| [**Nanobot**](https://github.com/HKUDS/nanobot) | 32k | Python | AI-агент | Multi-instance, ультра-легкий |
-| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | 26k | Rust | AI-агент | Потребление памяти ~5MB, быстрый старт |
-| [**PicoClaw**](https://github.com/sipeed/picoclaw) | 24k | Go | Edge/IoT | Работает как нода в gateway, дешевое железо |
-| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | 22k | Python | Chatbot | Фокус на IM-платформы (TG, WhatsApp) |
-| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | 21k | TypeScript | AI-агент | Контейнеризация, фокус на бизнес-мессенджеры |
-| [**IronClaw**](https://github.com/nearai/ironclaw) | 9.6k | Rust | AI-агент | WASM sandbox, максимальная изоляция |
+| [**OpenClaw**](https://github.com/openclaw/openclaw) | 357k | TypeScript | AI-агент | Базовый проект, поддержка MCP и AWS EC2 |
+| [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) | 86k | Python | AI-агент | Обучение, skills, шлюз, миграция с OpenClaw |
+| [**Nanobot**](https://github.com/HKUDS/nanobot) | 39k | Python | AI-агент | Multi-instance, ультра-легкий |
+| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | 30k | Rust | AI-агент | Потребление памяти ~5MB, быстрый старт |
+| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | 29k | Python | Chatbot | Фокус на IM-платформы (TG, WhatsApp) |
+| [**PicoClaw**](https://github.com/sipeed/picoclaw) | 28k | Go | Edge/IoT | Работает как нода в gateway, дешевое железо |
+| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | 27k | TypeScript | AI-агент | Контейнеризация, фокус на бизнес-мессенджеры |
+| [**IronClaw**](https://github.com/nearai/ironclaw) | 11.8k | Rust | AI-агент | WASM sandbox, максимальная изоляция |
+| [**GoClaw**](https://github.com/nextlevelbuilder/goclaw) | 2.7k | Go | AI-агент | Мульти-тенант, 5 уровней безопасности, MCP, Postgres |
+
+*Округлённые звёзды; точные значения: [scripts/data/github_stats.json](scripts/data/github_stats.json). Живые бейджи звёзд: [shields.io](https://shields.io/badges/git-hub-repo-stars) (`https://img.shields.io/github/stars/<owner>/<repo>`).*
 
 ## 🛠 Нишевые аналоги и «микро-лобстеры»
 
@@ -93,6 +99,7 @@ git clone https://github.com/openclaw/openclaw.git && cd openclaw
 ## Полезные материалы
 
 - **Skills / Ресурсы:** [clawhub](https://github.com/clawhub) / [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
+- **Ещё репозитории:** топик GitHub [`openclaw-alternative`](https://github.com/topics/openclaw-alternative)
 
 ---
 
