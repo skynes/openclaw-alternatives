@@ -1,6 +1,6 @@
 # OpenClaw-Alternativen: Von Giganten zu Mikro-Agenten
 
-*Zuletzt aktualisiert: April 2026*
+*Zuletzt aktualisiert: Juni 2026*
 
 **Übersetzungen:** [English](README.md) · [中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
@@ -27,19 +27,19 @@ Wenn du schnell loslegen willst: Hier die Empfehlungen:
 
 ## 📊 Vergleichstabelle
 
-Sortiert nach Beliebtheit und Projektaktivität auf GitHub (Daten Stand April 2026).
+Sortiert nach Beliebtheit und Projektaktivität auf GitHub (Daten Stand Juni 2026).
 
-| Projekt | ⭐ Stars | Sprache | Typ | Merkmale |
-|---------|---------|---------|-----|----------|
-| [**OpenClaw**](https://github.com/openclaw/openclaw) | 357k | TypeScript | KI-Agent | Basisprojekt, MCP- und AWS-EC2-Support |
-| [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) | 86k | Python | KI-Agent | Lernschleife, Skills, Gateway, OpenClaw-Migration |
-| [**Nanobot**](https://github.com/HKUDS/nanobot) | 39k | Python | KI-Agent | Multi-Instanz, ultra-leichtgewichtig |
-| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | 30k | Rust | KI-Agent | Speicherverbrauch ~5MB, schneller Start |
-| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | 29k | Python | Chatbot | Fokus auf IM-Plattformen (TG, WhatsApp) |
-| [**PicoClaw**](https://github.com/sipeed/picoclaw) | 28k | Go | Edge/IoT | Läuft als Knoten im Gateway, günstige Hardware |
-| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | 27k | TypeScript | KI-Agent | Containerisierung, Fokus auf Business-Messenger |
-| [**IronClaw**](https://github.com/nearai/ironclaw) | 11.8k | Rust | KI-Agent | WASM-Sandbox, maximale Isolation |
-| [**GoClaw**](https://github.com/nextlevelbuilder/goclaw) | 2.7k | Go | KI-Agent | Multi-Tenant, 5-Schicht-Sicherheit, MCP, Postgres |
+| Projekt | Live ⭐ | ⭐ Stars | Sprache | Typ | Merkmale |
+|---------|---------|---------|---------|-----|----------|
+| [**OpenClaw**](https://github.com/openclaw/openclaw) | [![stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social)](https://github.com/openclaw/openclaw) | 379k | TypeScript | KI-Agent | Basisprojekt, MCP- und AWS-EC2-Support |
+| [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) | [![stars](https://img.shields.io/github/stars/NousResearch/hermes-agent?style=social)](https://github.com/NousResearch/hermes-agent) | 195k | Python | KI-Agent | Lernschleife, Skills, Gateway, OpenClaw-Migration |
+| [**Nanobot**](https://github.com/HKUDS/nanobot) | [![stars](https://img.shields.io/github/stars/HKUDS/nanobot?style=social)](https://github.com/HKUDS/nanobot) | 44k | Python | KI-Agent | Multi-Instanz, ultra-leichtgewichtig |
+| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | [![stars](https://img.shields.io/github/stars/AstrBotDevs/AstrBot?style=social)](https://github.com/AstrBotDevs/AstrBot) | 35k | Python | Chatbot | Fokus auf IM-Plattformen (TG, WhatsApp) |
+| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | [![stars](https://img.shields.io/github/stars/zeroclaw-labs/zeroclaw?style=social)](https://github.com/zeroclaw-labs/zeroclaw) | 32k | Rust | KI-Agent | Speicherverbrauch ~5MB, schneller Start |
+| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | [![stars](https://img.shields.io/github/stars/qwibitai/nanoclaw?style=social)](https://github.com/qwibitai/nanoclaw) | 30k | TypeScript | KI-Agent | Containerisierung, Fokus auf Business-Messenger |
+| [**PicoClaw**](https://github.com/sipeed/picoclaw) | [![stars](https://img.shields.io/github/stars/sipeed/picoclaw?style=social)](https://github.com/sipeed/picoclaw) | 29k | Go | Edge/IoT | Läuft als Knoten im Gateway, günstige Hardware |
+| [**IronClaw**](https://github.com/nearai/ironclaw) | [![stars](https://img.shields.io/github/stars/nearai/ironclaw?style=social)](https://github.com/nearai/ironclaw) | 12k | Rust | KI-Agent | WASM-Sandbox, maximale Isolation |
+| [**GoClaw**](https://github.com/nextlevelbuilder/goclaw) | [![stars](https://img.shields.io/github/stars/nextlevelbuilder/goclaw?style=social)](https://github.com/nextlevelbuilder/goclaw) | 3.3k | Go | KI-Agent | Multi-Tenant, 5-Schicht-Sicherheit, MCP, Postgres |
 
 *Gerundete Sterne; exakte Werte: [scripts/data/github_stats.json](scripts/data/github_stats.json). Live-Badges: [shields.io](https://shields.io/badges/git-hub-repo-stars) (`https://img.shields.io/github/stars/<owner>/<repo>`).*
 
@@ -49,15 +49,15 @@ Für spezifische Anforderungen — von Bare-Metal bis Erlang-Systeme.
 
 ### Leistung und Edge
 
-- [**NullClaw**](https://github.com/nullclaw/nullclaw) (Zig): Fantastische Leistung. 678KB-Binary, Start <2ms. Geeignet für Arduino und RPi.
-- [**MimiClaw**](https://github.com/memovai/mimiclaw) (C): Läuft auf ESP32-S3 Bare-Metal. Lösungskosten ~$5.
-- [**SubZeroClaw**](https://github.com/jmlago/subzeroclaw) (C): Nur 54KB.
+- [**NullClaw**](https://github.com/nullclaw/nullclaw) [![stars](https://img.shields.io/github/stars/nullclaw/nullclaw?style=social)](https://github.com/nullclaw/nullclaw) (Zig): Fantastische Leistung. 678KB-Binary, Start <2ms. Geeignet für Arduino und RPi.
+- [**MimiClaw**](https://github.com/memovai/mimiclaw) [![stars](https://img.shields.io/github/stars/memovai/mimiclaw?style=social)](https://github.com/memovai/mimiclaw) (C): Läuft auf ESP32-S3 Bare-Metal. Lösungskosten ~$5.
+- [**SubZeroClaw**](https://github.com/jmlago/subzeroclaw) [![stars](https://img.shields.io/github/stars/jmlago/subzeroclaw?style=social)](https://github.com/jmlago/subzeroclaw) (C): Nur 54KB.
 
 ### Sicherheit und Fehlertoleranz
 
-- [**ZeptoClaw**](https://github.com/qhkm/zeptoclaw): 7-Schichten-Sicherheitssystem in Rust.
-- [**BeamClaw**](https://github.com/peterdmv/beamclaw): In Erlang/OTP für verteilte Systeme geschrieben.
-- [**Safeclaw**](https://github.com/princezuda/safeclaw): Läuft ohne LLM (Intent-Erkennung), garantiert 100% Vorhersagbarkeit.
+- [**ZeptoClaw**](https://github.com/qhkm/zeptoclaw) [![stars](https://img.shields.io/github/stars/qhkm/zeptoclaw?style=social)](https://github.com/qhkm/zeptoclaw): 7-Schichten-Sicherheitssystem in Rust.
+- [**BeamClaw**](https://github.com/peterdmv/beamclaw) [![stars](https://img.shields.io/github/stars/peterdmv/beamclaw?style=social)](https://github.com/peterdmv/beamclaw): In Erlang/OTP für verteilte Systeme geschrieben.
+- [**Safeclaw**](https://github.com/princezuda/safeclaw) [![stars](https://img.shields.io/github/stars/princezuda/safeclaw?style=social)](https://github.com/princezuda/safeclaw): Läuft ohne LLM (Intent-Erkennung), garantiert 100% Vorhersagbarkeit.
 
 ## 🚀 Schnellstart
 

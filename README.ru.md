@@ -1,6 +1,6 @@
 # OpenClaw-альтернативы: от гигантов до микро-агентов
 
-*Обновлено: апрель 2026*
+*Обновлено: июнь 2026*
 
 **Переводы:** [English](README.md) · [中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
@@ -27,19 +27,19 @@
 
 ## 📊 Сравнительная таблица проектов
 
-Сортировка выполнена по популярности и активности проектов на GitHub (данные на апрель 2026).
+Сортировка выполнена по популярности и активности проектов на GitHub (данные на июнь 2026).
 
-| Проект | ⭐ Stars | Язык | Тип | Особенности |
-|--------|---------|------|-----|-------------|
-| [**OpenClaw**](https://github.com/openclaw/openclaw) | 357k | TypeScript | AI-агент | Базовый проект, поддержка MCP и AWS EC2 |
-| [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) | 86k | Python | AI-агент | Обучение, skills, шлюз, миграция с OpenClaw |
-| [**Nanobot**](https://github.com/HKUDS/nanobot) | 39k | Python | AI-агент | Multi-instance, ультра-легкий |
-| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | 30k | Rust | AI-агент | Потребление памяти ~5MB, быстрый старт |
-| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | 29k | Python | Chatbot | Фокус на IM-платформы (TG, WhatsApp) |
-| [**PicoClaw**](https://github.com/sipeed/picoclaw) | 28k | Go | Edge/IoT | Работает как нода в gateway, дешевое железо |
-| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | 27k | TypeScript | AI-агент | Контейнеризация, фокус на бизнес-мессенджеры |
-| [**IronClaw**](https://github.com/nearai/ironclaw) | 11.8k | Rust | AI-агент | WASM sandbox, максимальная изоляция |
-| [**GoClaw**](https://github.com/nextlevelbuilder/goclaw) | 2.7k | Go | AI-агент | Мульти-тенант, 5 уровней безопасности, MCP, Postgres |
+| Проект | Live ⭐ | ⭐ Stars | Язык | Тип | Особенности |
+|--------|---------|---------|------|-----|-------------|
+| [**OpenClaw**](https://github.com/openclaw/openclaw) | [![stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social)](https://github.com/openclaw/openclaw) | 379k | TypeScript | AI-агент | Базовый проект, поддержка MCP и AWS EC2 |
+| [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) | [![stars](https://img.shields.io/github/stars/NousResearch/hermes-agent?style=social)](https://github.com/NousResearch/hermes-agent) | 195k | Python | AI-агент | Обучение, skills, шлюз, миграция с OpenClaw |
+| [**Nanobot**](https://github.com/HKUDS/nanobot) | [![stars](https://img.shields.io/github/stars/HKUDS/nanobot?style=social)](https://github.com/HKUDS/nanobot) | 44k | Python | AI-агент | Multi-instance, ультра-легкий |
+| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | [![stars](https://img.shields.io/github/stars/AstrBotDevs/AstrBot?style=social)](https://github.com/AstrBotDevs/AstrBot) | 35k | Python | Chatbot | Фокус на IM-платформы (TG, WhatsApp) |
+| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | [![stars](https://img.shields.io/github/stars/zeroclaw-labs/zeroclaw?style=social)](https://github.com/zeroclaw-labs/zeroclaw) | 32k | Rust | AI-агент | Потребление памяти ~5MB, быстрый старт |
+| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | [![stars](https://img.shields.io/github/stars/qwibitai/nanoclaw?style=social)](https://github.com/qwibitai/nanoclaw) | 30k | TypeScript | AI-агент | Контейнеризация, фокус на бизнес-мессенджеры |
+| [**PicoClaw**](https://github.com/sipeed/picoclaw) | [![stars](https://img.shields.io/github/stars/sipeed/picoclaw?style=social)](https://github.com/sipeed/picoclaw) | 29k | Go | Edge/IoT | Работает как нода в gateway, дешевое железо |
+| [**IronClaw**](https://github.com/nearai/ironclaw) | [![stars](https://img.shields.io/github/stars/nearai/ironclaw?style=social)](https://github.com/nearai/ironclaw) | 12k | Rust | AI-агент | WASM sandbox, максимальная изоляция |
+| [**GoClaw**](https://github.com/nextlevelbuilder/goclaw) | [![stars](https://img.shields.io/github/stars/nextlevelbuilder/goclaw?style=social)](https://github.com/nextlevelbuilder/goclaw) | 3.3k | Go | AI-агент | Мульти-тенант, 5 уровней безопасности, MCP, Postgres |
 
 *Округлённые звёзды; точные значения: [scripts/data/github_stats.json](scripts/data/github_stats.json). Живые бейджи звёзд: [shields.io](https://shields.io/badges/git-hub-repo-stars) (`https://img.shields.io/github/stars/<owner>/<repo>`).*
 
@@ -49,15 +49,16 @@
 
 ### Производительность и Edge
 
-- [**NullClaw**](https://github.com/nullclaw/nullclaw) (Zig): Фантастические показатели. Бинарник 678KB, запуск <2мс. Подходит для Arduino и RPi.
-- [**MimiClaw**](https://github.com/memovai/mimiclaw) (C): Работает на ESP32-S3 bare-metal. Цена решения ~$5.
-- [**SubZeroClaw**](https://github.com/jmlago/subzeroclaw) (C): Всего 54KB.
+- [**NullClaw**](https://github.com/nullclaw/nullclaw) [![stars](https://img.shields.io/github/stars/nullclaw/nullclaw?style=social)](https://github.com/nullclaw/nullclaw) (Zig): Фантастические показатели. Бинарник 678KB, запуск <2мс. Подходит для Arduino и RPi.
+- [**MimiClaw**](https://github.com/memovai/mimiclaw) [![stars](https://img.shields.io/github/stars/memovai/mimiclaw?style=social)](https://github.com/memovai/mimiclaw) (C): Работает на ESP32-S3 bare-metal. Цена решения ~$5.
+- [**SubZeroClaw**](https://github.com/jmlago/subzeroclaw) [![stars](https://img.shields.io/github/stars/jmlago/subzeroclaw?style=social)](https://github.com/jmlago/subzeroclaw) (C): Всего 54KB.
 
 ### Безопасность и отказоустойчивость
 
-- [**ZeptoClaw**](https://github.com/qhkm/zeptoclaw): 7-уровневая система безопасности на Rust.
-- [**BeamClaw**](https://github.com/peterdmv/beamclaw): Написан на Erlang/OTP для распределённых систем.
-- [**Safeclaw**](https://github.com/princezuda/safeclaw): Работает без LLM (intent recognition), что гарантирует 100% предсказуемость.
+- [**ZeptoClaw**](https://github.com/qhkm/zeptoclaw) [![stars](https://img.shields.io/github/stars/qhkm/zeptoclaw?style=social)](https://github.com/qhkm/zeptoclaw): 7-уровневая система безопасности на Rust.
+- [**BeamClaw**](https://github.com/peterdmv/beamclaw) [![stars](https://img.shields.io/github/stars/peterdmv/beamclaw?style=social)](https://github.com/peterdmv/beamclaw): Написан на Erlang/OTP для распределённых систем.
+- [**Safeclaw**](https://github.com/princezuda/safeclaw) [![stars](https://img.shields.io/github/stars/princezuda/safeclaw?style=social)](https://github.com/princezuda/safeclaw): Работает без LLM (intent recognition), что гарантирует 100% предсказуемость.
+- [**ShibaClaw**](https://github.com/RikyZ90/ShibaClaw) [![stars](https://img.shields.io/github/stars/RikyZ90/ShibaClaw?style=social)](https://github.com/RikyZ90/ShibaClaw): Python-агент с фокусом на безопасность — 22 провайдера, 11 каналов, WebUI, MCP, skills.
 
 ## 🚀 Быстрый старт
 
@@ -99,6 +100,8 @@ git clone https://github.com/openclaw/openclaw.git && cd openclaw
 ## Полезные материалы
 
 - **Skills / Ресурсы:** [clawhub](https://github.com/clawhub) / [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
+- **Подборки:** [awesome-claw](https://github.com/sameeerkashyap/awesome-claw) · [awesome-openclaw-alternatives](https://github.com/T31K/awesome-openclaw-alternatives)
+- **Выбор модели (рейтинг OpenRouter):** [Odysseus](https://github.com/pewdiepie-archdaemon/odysseus) — self-hosted AI workspace с рейтингом моделей для ассистентов
 - **Ещё репозитории:** топик GitHub [`openclaw-alternative`](https://github.com/topics/openclaw-alternative)
 
 ---

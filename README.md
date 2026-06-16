@@ -1,6 +1,6 @@
 # OpenClaw Alternatives: From Giants to Micro-Agents
 
-*Last updated: April 2026*
+*Last updated: June 2026*
 
 **Translations:** [English](README.md) · [中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
@@ -29,20 +29,20 @@ If you need to get up and running quickly, here's what we're here for:
 
 ## 📊 Comparison Table
 
-Sorting by popularity and project activity on GitHub (data as of April 2026).
+Sorting by popularity and project activity on GitHub (data as of June 2026).
 
 
-| Project                                                   | ⭐ Stars | Language   | Type     | Features                                       |
-| --------------------------------------------------------- | ------- | ---------- | -------- | ---------------------------------------------- |
-| **[OpenClaw](https://github.com/openclaw/openclaw)**      | 357k    | TypeScript | AI-agent | Base project, MCP and AWS EC2 support          |
-| **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** | 86k | Python     | AI-agent | Learning loop, skills, gateway, OpenClaw migration |
-| **[Nanobot](https://github.com/HKUDS/nanobot)**           | 39k     | Python     | AI-agent | Multi-instance, ultra-lightweight              |
-| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 30k     | Rust       | AI-agent | Memory usage ~5MB, fast startup                |
-| **[AstrBot](https://github.com/AstrBotDevs/AstrBot)**     | 29k     | Python     | Chatbot  | Focus on IM platforms (TG, WhatsApp)           |
-| **[PicoClaw](https://github.com/sipeed/picoclaw)**        | 28k     | Go         | Edge/IoT | Works as a node in gateway, cheap hardware     |
-| **[NanoClaw](https://github.com/qwibitai/nanoclaw)**      | 27k     | TypeScript | AI-agent | Containerization, focus on business messengers |
-| **[IronClaw](https://github.com/nearai/ironclaw)**        | 11.8k   | Rust       | AI-agent | WASM sandbox, maximum isolation                |
-| **[GoClaw](https://github.com/nextlevelbuilder/goclaw)**  | 2.7k    | Go         | AI-agent | Multi-tenant, 5-layer security, MCP, Postgres  |
+| Project | Live ⭐ | ⭐ Stars | Language | Type | Features |
+| --------------------------------------------------------- | ------- | ------- | ---------- | -------- | ---------------------------------------------- |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | [![stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social)](https://github.com/openclaw/openclaw) | 379k | TypeScript | AI-agent | Base project, MCP and AWS EC2 support |
+| **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** | [![stars](https://img.shields.io/github/stars/NousResearch/hermes-agent?style=social)](https://github.com/NousResearch/hermes-agent) | 195k | Python | AI-agent | Learning loop, skills, gateway, OpenClaw migration |
+| **[Nanobot](https://github.com/HKUDS/nanobot)** | [![stars](https://img.shields.io/github/stars/HKUDS/nanobot?style=social)](https://github.com/HKUDS/nanobot) | 44k | Python | AI-agent | Multi-instance, ultra-lightweight |
+| **[AstrBot](https://github.com/AstrBotDevs/AstrBot)** | [![stars](https://img.shields.io/github/stars/AstrBotDevs/AstrBot?style=social)](https://github.com/AstrBotDevs/AstrBot) | 35k | Python | Chatbot | Focus on IM platforms (TG, WhatsApp) |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | [![stars](https://img.shields.io/github/stars/zeroclaw-labs/zeroclaw?style=social)](https://github.com/zeroclaw-labs/zeroclaw) | 32k | Rust | AI-agent | Memory usage ~5MB, fast startup |
+| **[NanoClaw](https://github.com/qwibitai/nanoclaw)** | [![stars](https://img.shields.io/github/stars/qwibitai/nanoclaw?style=social)](https://github.com/qwibitai/nanoclaw) | 30k | TypeScript | AI-agent | Containerization, focus on business messengers |
+| **[PicoClaw](https://github.com/sipeed/picoclaw)** | [![stars](https://img.shields.io/github/stars/sipeed/picoclaw?style=social)](https://github.com/sipeed/picoclaw) | 29k | Go | Edge/IoT | Works as a node in gateway, cheap hardware |
+| **[IronClaw](https://github.com/nearai/ironclaw)** | [![stars](https://img.shields.io/github/stars/nearai/ironclaw?style=social)](https://github.com/nearai/ironclaw) | 12k | Rust | AI-agent | WASM sandbox, maximum isolation |
+| **[GoClaw](https://github.com/nextlevelbuilder/goclaw)** | [![stars](https://img.shields.io/github/stars/nextlevelbuilder/goclaw?style=social)](https://github.com/nextlevelbuilder/goclaw) | 3.3k | Go | AI-agent | Multi-tenant, 5-layer security, MCP, Postgres |
 
 *Rounded star counts; exact figures: [scripts/data/github_stats.json](scripts/data/github_stats.json). Live star badges: [shields.io](https://shields.io/badges/git-hub-repo-stars) (`https://img.shields.io/github/stars/<owner>/<repo>`).*
 
@@ -52,15 +52,16 @@ For those looking for specific solutions — from bare-metal to Erlang systems.
 
 ### Performance and Edge
 
-- **[NullClaw](https://github.com/nullclaw/nullclaw)** (Zig): Fantastic performance. 678KB binary, startup <2ms. Suitable for Arduino and RPi.
-- **[MimiClaw](https://github.com/memovai/mimiclaw)** (C): Runs on ESP32-S3 bare-metal. Solution cost ~$5.
-- **[SubZeroClaw](https://github.com/jmlago/subzeroclaw)** (C): Only 54KB.
+- **[NullClaw](https://github.com/nullclaw/nullclaw)** [![stars](https://img.shields.io/github/stars/nullclaw/nullclaw?style=social)](https://github.com/nullclaw/nullclaw) (Zig): Fantastic performance. 678KB binary, startup <2ms. Suitable for Arduino and RPi.
+- **[MimiClaw](https://github.com/memovai/mimiclaw)** [![stars](https://img.shields.io/github/stars/memovai/mimiclaw?style=social)](https://github.com/memovai/mimiclaw) (C): Runs on ESP32-S3 bare-metal. Solution cost ~$5.
+- **[SubZeroClaw](https://github.com/jmlago/subzeroclaw)** [![stars](https://img.shields.io/github/stars/jmlago/subzeroclaw?style=social)](https://github.com/jmlago/subzeroclaw) (C): Only 54KB.
 
 ### Security and Fault Tolerance
 
-- **[ZeptoClaw](https://github.com/qhkm/zeptoclaw)**: 7-layer security system on Rust.
-- **[BeamClaw](https://github.com/peterdmv/beamclaw)**: Written in Erlang/OTP for distributed systems.
-- **[Safeclaw](https://github.com/princezuda/safeclaw)**: Works without LLM (intent recognition), guaranteeing 100% predictability.
+- **[ZeptoClaw](https://github.com/qhkm/zeptoclaw)** [![stars](https://img.shields.io/github/stars/qhkm/zeptoclaw?style=social)](https://github.com/qhkm/zeptoclaw): 7-layer security system on Rust.
+- **[BeamClaw](https://github.com/peterdmv/beamclaw)** [![stars](https://img.shields.io/github/stars/peterdmv/beamclaw?style=social)](https://github.com/peterdmv/beamclaw): Written in Erlang/OTP for distributed systems.
+- **[Safeclaw](https://github.com/princezuda/safeclaw)** [![stars](https://img.shields.io/github/stars/princezuda/safeclaw?style=social)](https://github.com/princezuda/safeclaw): Works without LLM (intent recognition), guaranteeing 100% predictability.
+- **[ShibaClaw](https://github.com/RikyZ90/ShibaClaw)** [![stars](https://img.shields.io/github/stars/RikyZ90/ShibaClaw?style=social)](https://github.com/RikyZ90/ShibaClaw): Security-first Python agent — 22 providers, 11 channels, WebUI, MCP, skills.
 
 ## 🚀 Quick Start
 
@@ -102,6 +103,8 @@ git clone https://github.com/openclaw/openclaw.git && cd openclaw
 ## Useful Resources
 
 - **Skills / Resources:** [clawhub](https://github.com/clawhub) / [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
+- **Curated lists:** [awesome-claw](https://github.com/sameeerkashyap/awesome-claw) · [awesome-openclaw-alternatives](https://github.com/T31K/awesome-openclaw-alternatives)
+- **Model selection (OpenRouter rankings):** [Odysseus](https://github.com/pewdiepie-archdaemon/odysseus) — self-hosted AI workspace with assistant model rankings
 - **Discover more repos:** GitHub topic [`openclaw-alternative`](https://github.com/topics/openclaw-alternative)
 
 ---
@@ -123,6 +126,12 @@ To record **before → after** stars/forks, copy the current file to `scripts/da
 - Data: [scripts/data/stars_monthly_history.json](scripts/data/stars_monthly_history.json)
 - Human-readable table: [STARS_BY_MONTH.md](STARS_BY_MONTH.md)
 - After each monthly fetch: `python scripts/append_stars_monthly.py` then `python scripts/render_stars_by_month_md.py`
+
+**Live badges** (shields.io in README / REFERENCE / comparison tables):
+
+```powershell
+python scripts/apply_badges_to_docs.py
+```
 
 **Tavily (project descriptions):**
 

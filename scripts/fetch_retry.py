@@ -17,6 +17,10 @@ REPOS = [
     ("vincenzodomina/supaclaw", "supaclaw"),
     ("shimaenaga1123/rustclaw", "rustclaw"),
     ("openagen/zeroclaw", "zeroclaw-openagen"),
+    ("jmlago/subzeroclaw", "subzeroclaw"),
+    ("nextlevelbuilder/goclaw", "goclaw"),
+    ("RikyZ90/ShibaClaw", "shibaclaw"),
+    ("pewdiepie-archdaemon/odysseus", "odysseus"),
 ]
 
 def main():

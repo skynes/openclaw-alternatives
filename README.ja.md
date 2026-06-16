@@ -1,6 +1,6 @@
 # OpenClaw 代替案：巨人からマイクロエージェントまで
 
-*最終更新：2026年4月*
+*最終更新：2026年6月*
 
 **翻訳：** [English](README.md) · [中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
@@ -27,19 +27,19 @@
 
 ## 📊 比較表
 
-GitHub の人気・活動度でソート（2026年4月データ）。
+GitHub の人気・活動度でソート（2026年6月データ）。
 
-| プロジェクト | ⭐ Stars | 言語 | タイプ | 特徴 |
-|-------------|---------|------|--------|------|
-| [**OpenClaw**](https://github.com/openclaw/openclaw) | 357k | TypeScript | AIエージェント | 基盤プロジェクト、MCP・AWS EC2 対応 |
-| [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) | 86k | Python | AIエージェント | 学習ループ、スキル、ゲートウェイ、OpenClaw 移行 |
-| [**Nanobot**](https://github.com/HKUDS/nanobot) | 39k | Python | AIエージェント | マルチインスタンス、超軽量 |
-| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | 30k | Rust | AIエージェント | メモリ使用 ~5MB、高速起動 |
-| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | 29k | Python | チャットボット | IM プラットフォーム対応（TG、WhatsApp） |
-| [**PicoClaw**](https://github.com/sipeed/picoclaw) | 28k | Go | Edge/IoT | ゲートウェイノード、低コストハードウェア |
-| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | 27k | TypeScript | AIエージェント | コンテナ化、ビジネスメッセンジャー向け |
-| [**IronClaw**](https://github.com/nearai/ironclaw) | 11.8k | Rust | AIエージェント | WASM サンドボックス、最大分離 |
-| [**GoClaw**](https://github.com/nextlevelbuilder/goclaw) | 2.7k | Go | AIエージェント | マルチテナント、5 層セキュリティ、MCP、Postgres |
+| プロジェクト | Live ⭐ | ⭐ Stars | 言語 | タイプ | 特徴 |
+|-------------|---------|---------|------|--------|------|
+| [**OpenClaw**](https://github.com/openclaw/openclaw) | [![stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social)](https://github.com/openclaw/openclaw) | 379k | TypeScript | AIエージェント | 基盤プロジェクト、MCP・AWS EC2 対応 |
+| [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) | [![stars](https://img.shields.io/github/stars/NousResearch/hermes-agent?style=social)](https://github.com/NousResearch/hermes-agent) | 195k | Python | AIエージェント | 学習ループ、スキル、ゲートウェイ、OpenClaw 移行 |
+| [**Nanobot**](https://github.com/HKUDS/nanobot) | [![stars](https://img.shields.io/github/stars/HKUDS/nanobot?style=social)](https://github.com/HKUDS/nanobot) | 44k | Python | AIエージェント | マルチインスタンス、超軽量 |
+| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | [![stars](https://img.shields.io/github/stars/AstrBotDevs/AstrBot?style=social)](https://github.com/AstrBotDevs/AstrBot) | 35k | Python | チャットボット | IM プラットフォーム対応（TG、WhatsApp） |
+| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | [![stars](https://img.shields.io/github/stars/zeroclaw-labs/zeroclaw?style=social)](https://github.com/zeroclaw-labs/zeroclaw) | 32k | Rust | AIエージェント | メモリ使用 ~5MB、高速起動 |
+| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | [![stars](https://img.shields.io/github/stars/qwibitai/nanoclaw?style=social)](https://github.com/qwibitai/nanoclaw) | 30k | TypeScript | AIエージェント | コンテナ化、ビジネスメッセンジャー向け |
+| [**PicoClaw**](https://github.com/sipeed/picoclaw) | [![stars](https://img.shields.io/github/stars/sipeed/picoclaw?style=social)](https://github.com/sipeed/picoclaw) | 29k | Go | Edge/IoT | ゲートウェイノード、低コストハードウェア |
+| [**IronClaw**](https://github.com/nearai/ironclaw) | [![stars](https://img.shields.io/github/stars/nearai/ironclaw?style=social)](https://github.com/nearai/ironclaw) | 12k | Rust | AIエージェント | WASM サンドボックス、最大分離 |
+| [**GoClaw**](https://github.com/nextlevelbuilder/goclaw) | [![stars](https://img.shields.io/github/stars/nextlevelbuilder/goclaw?style=social)](https://github.com/nextlevelbuilder/goclaw) | 3.3k | Go | AIエージェント | マルチテナント、5 層セキュリティ、MCP、Postgres |
 
 *星数は概算。[scripts/data/github_stats.json](scripts/data/github_stats.json) に正確な値。ライブバッジ: [shields.io](https://shields.io/badges/git-hub-repo-stars)（`https://img.shields.io/github/stars/<owner>/<repo>`）。*
 
@@ -49,15 +49,15 @@ GitHub の人気・活動度でソート（2026年4月データ）。
 
 ### パフォーマンスと Edge
 
-- [**NullClaw**](https://github.com/nullclaw/nullclaw) (Zig)：驚異的な性能。678KB バイナリ、起動 <2ms。Arduino・RPi 対応。
-- [**MimiClaw**](https://github.com/memovai/mimiclaw) (C)：ESP32-S3 ベアメタルで動作。ソリューションコスト約 $5。
-- [**SubZeroClaw**](https://github.com/jmlago/subzeroclaw) (C)：わずか 54KB。
+- [**NullClaw**](https://github.com/nullclaw/nullclaw) [![stars](https://img.shields.io/github/stars/nullclaw/nullclaw?style=social)](https://github.com/nullclaw/nullclaw) (Zig)：驚異的な性能。678KB バイナリ、起動 <2ms。Arduino・RPi 対応。
+- [**MimiClaw**](https://github.com/memovai/mimiclaw) [![stars](https://img.shields.io/github/stars/memovai/mimiclaw?style=social)](https://github.com/memovai/mimiclaw) (C)：ESP32-S3 ベアメタルで動作。ソリューションコスト約 $5。
+- [**SubZeroClaw**](https://github.com/jmlago/subzeroclaw) [![stars](https://img.shields.io/github/stars/jmlago/subzeroclaw?style=social)](https://github.com/jmlago/subzeroclaw) (C)：わずか 54KB。
 
 ### セキュリティと耐障害性
 
-- [**ZeptoClaw**](https://github.com/qhkm/zeptoclaw)：Rust の 7 層セキュリティシステム。
-- [**BeamClaw**](https://github.com/peterdmv/beamclaw)：Erlang/OTP 製、分散システム向け。
-- [**Safeclaw**](https://github.com/princezuda/safeclaw)：LLM 不要（意図認識）、100% 予測可能性を保証。
+- [**ZeptoClaw**](https://github.com/qhkm/zeptoclaw) [![stars](https://img.shields.io/github/stars/qhkm/zeptoclaw?style=social)](https://github.com/qhkm/zeptoclaw)：Rust の 7 層セキュリティシステム。
+- [**BeamClaw**](https://github.com/peterdmv/beamclaw) [![stars](https://img.shields.io/github/stars/peterdmv/beamclaw?style=social)](https://github.com/peterdmv/beamclaw)：Erlang/OTP 製、分散システム向け。
+- [**Safeclaw**](https://github.com/princezuda/safeclaw) [![stars](https://img.shields.io/github/stars/princezuda/safeclaw?style=social)](https://github.com/princezuda/safeclaw)：LLM 不要（意図認識）、100% 予測可能性を保証。
 
 ## 🚀 クイックスタート
 

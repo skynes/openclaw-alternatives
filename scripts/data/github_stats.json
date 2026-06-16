@@ -1,57 +1,57 @@
 {
   "picoclaw": {
-    "stars": 28154,
-    "forks": 4006,
-    "popularity": 60314,
+    "stars": 29423,
+    "forks": 4218,
+    "popularity": 63064,
     "language": "Go",
     "created_at": "2026-02-04"
   },
   "nanobot": {
-    "stars": 39552,
-    "forks": 6929,
-    "popularity": 86033,
+    "stars": 44263,
+    "forks": 7823,
+    "popularity": 96349,
     "language": "Python",
     "created_at": "2026-02-01"
   },
   "openclaw": {
-    "stars": 357587,
-    "forks": 72643,
-    "popularity": 787817,
+    "stars": 378931,
+    "forks": 79287,
+    "popularity": 837149,
     "language": "TypeScript",
     "created_at": "2025-11-24"
   },
   "hermes-agent": {
-    "stars": 86011,
-    "forks": 11654,
-    "popularity": 183676,
+    "stars": 194711,
+    "forks": 34161,
+    "popularity": 423583,
     "language": "Python",
     "created_at": "2025-07-22"
   },
   "nanoclaw": {
-    "stars": 27292,
-    "forks": 11974,
-    "popularity": 66558,
+    "stars": 29882,
+    "forks": 12885,
+    "popularity": 72649,
     "language": "TypeScript",
     "created_at": "2026-01-31"
   },
   "zeroclaw": {
-    "stars": 30153,
-    "forks": 4351,
-    "popularity": 64657,
+    "stars": 31922,
+    "forks": 4718,
+    "popularity": 68562,
     "language": "Rust",
     "created_at": "2026-02-13"
   },
   "microclaw": {
-    "stars": 649,
-    "forks": 120,
-    "popularity": 1418,
+    "stars": 716,
+    "forks": 132,
+    "popularity": 1564,
     "language": "Rust",
     "created_at": "2026-02-07"
   },
   "nanoClaw": {
-    "stars": 61,
+    "stars": 64,
     "forks": 18,
-    "popularity": 140,
+    "popularity": 146,
     "language": "Python",
     "created_at": "2026-02-04"
   },
@@ -63,129 +63,143 @@
     "created_at": "2026-02-20"
   },
   "AstrBot": {
-    "stars": 29977,
-    "forks": 2022,
-    "popularity": 61976,
+    "stars": 34741,
+    "forks": 2393,
+    "popularity": 71875,
     "language": "Python",
     "created_at": "2022-12-08"
   },
   "mcp-use": {
-    "stars": 9772,
-    "forks": 1242,
-    "popularity": 20786,
+    "stars": 10109,
+    "forks": 1334,
+    "popularity": 21552,
     "language": "TypeScript",
     "created_at": "2025-03-28"
   },
   "ironclaw": {
-    "stars": 11780,
-    "forks": 1348,
-    "popularity": 24908,
+    "stars": 12455,
+    "forks": 1457,
+    "popularity": 26367,
     "language": "Rust",
     "created_at": "2026-02-03"
   },
   "awesome-openclaw-skills": {
-    "stars": 46058,
-    "forks": 4490,
-    "popularity": 96606,
+    "stars": 50282,
+    "forks": 4897,
+    "popularity": 105461,
     "language": "\u2014",
     "created_at": "2026-01-25"
   },
   "nullclaw": {
-    "stars": 7195,
-    "forks": 843,
-    "popularity": 15233,
+    "stars": 7704,
+    "forks": 899,
+    "popularity": 16307,
     "language": "Zig",
     "created_at": "2026-02-16"
   },
   "zclaw": {
-    "stars": 2074,
-    "forks": 177,
-    "popularity": 4325,
+    "stars": 2161,
+    "forks": 182,
+    "popularity": 4504,
     "language": "C",
     "created_at": "2026-02-16"
   },
   "mimiclaw": {
-    "stars": 5174,
-    "forks": 757,
-    "popularity": 11105,
+    "stars": 5503,
+    "forks": 808,
+    "popularity": 11814,
     "language": "C",
     "created_at": "2026-02-04"
   },
   "safeclaw": {
-    "stars": 131,
-    "forks": 15,
-    "popularity": 277,
+    "stars": 277,
+    "forks": 34,
+    "popularity": 588,
     "language": "Python",
     "created_at": "2026-02-02"
   },
   "zeptoclaw": {
-    "stars": 589,
-    "forks": 87,
-    "popularity": 1265,
+    "stars": 641,
+    "forks": 97,
+    "popularity": 1379,
     "language": "Rust",
     "created_at": "2026-02-12"
   },
   "tinyclaw": {
-    "stars": 217,
-    "forks": 33,
-    "popularity": 467,
+    "stars": 267,
+    "forks": 38,
+    "popularity": 572,
     "language": "TypeScript",
     "created_at": "2026-02-04"
   },
   "hermitclaw": {
-    "stars": 319,
+    "stars": 326,
     "forks": 54,
-    "popularity": 692,
+    "popularity": 706,
     "language": "Python",
     "created_at": "2026-02-15"
   },
   "subzeroclaw": {
     "stars": 119,
-    "forks": 14,
-    "popularity": 252,
+    "forks": 15,
+    "popularity": 253,
     "language": "C",
     "created_at": "2026-02-16"
   },
   "tinyclaw-400": {
-    "stars": 3510,
-    "forks": 504,
-    "popularity": 7524,
+    "stars": 3583,
+    "forks": 505,
+    "popularity": 7671,
     "language": "TypeScript",
     "created_at": "2026-02-09"
   },
   "carapace": {
-    "stars": 43,
-    "forks": 6,
-    "popularity": 92,
+    "stars": 46,
+    "forks": 7,
+    "popularity": 99,
     "language": "Rust",
     "created_at": "2026-01-27"
   },
   "supaclaw": {
-    "stars": 58,
-    "forks": 10,
-    "popularity": 126,
+    "stars": 59,
+    "forks": 9,
+    "popularity": 127,
     "language": "TypeScript",
     "created_at": "2026-02-12"
   },
   "rustclaw": {
-    "stars": 4,
+    "stars": 6,
     "forks": 1,
-    "popularity": 9,
+    "popularity": 13,
     "language": "Rust",
     "created_at": "2026-02-06"
   },
   "zeroclaw-openagen": {
-    "stars": 1808,
-    "forks": 267,
-    "popularity": 3883,
+    "stars": 1901,
+    "forks": 279,
+    "popularity": 4081,
     "language": "Rust",
     "created_at": "2026-02-15"
   },
   "goclaw": {
-    "stars": 2706,
-    "forks": 683,
-    "popularity": 6095,
+    "stars": 3263,
+    "forks": 916,
+    "popularity": 7442,
     "language": "Go",
     "created_at": "2026-02-22"
+  },
+  "shibaclaw": {
+    "stars": 71,
+    "forks": 7,
+    "popularity": 149,
+    "language": "Python",
+    "created_at": "2026-03-01"
+  },
+  "odysseus": {
+    "stars": 71915,
+    "forks": 9199,
+    "popularity": 153029,
+    "language": "Python",
+    "created_at": "2025-01-01"
   }
 }

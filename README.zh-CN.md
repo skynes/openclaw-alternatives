@@ -1,6 +1,6 @@
 # OpenClaw 替代方案：从巨头到微型代理
 
-*最后更新：2026 年 4 月*
+*最后更新：2026 年 6 月*
 
 **翻译：** [English](README.md) · [中文](README.zh-CN.md) · [Español](README.es.md) · [日本語](README.ja.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
@@ -27,19 +27,19 @@
 
 ## 📊 对比表
 
-按 GitHub 人气和活跃度排序（2026 年 4 月数据）。
+按 GitHub 人气和活跃度排序（2026 年 6 月数据）。
 
-| 项目 | ⭐ Stars | 语言 | 类型 | 特点 |
-|------|---------|------|------|------|
-| [**OpenClaw**](https://github.com/openclaw/openclaw) | 357k | TypeScript | AI 代理 | 基础项目，支持 MCP 和 AWS EC2 |
-| [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) | 86k | Python | AI 代理 | 学习循环、技能、网关、OpenClaw 迁移 |
-| [**Nanobot**](https://github.com/HKUDS/nanobot) | 39k | Python | AI 代理 | 多实例、超轻量 |
-| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | 30k | Rust | AI 代理 | 内存占用 ~5MB，快速启动 |
-| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | 29k | Python | 聊天机器人 | 专注 IM 平台（TG、WhatsApp） |
-| [**PicoClaw**](https://github.com/sipeed/picoclaw) | 28k | Go | Edge/IoT | 作为网关节点，廉价硬件 |
-| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | 27k | TypeScript | AI 代理 | 容器化，专注商业通讯 |
-| [**IronClaw**](https://github.com/nearai/ironclaw) | 11.8k | Rust | AI 代理 | WASM 沙箱，最大隔离 |
-| [**GoClaw**](https://github.com/nextlevelbuilder/goclaw) | 2.7k | Go | AI 代理 | 多租户、五层安全、MCP、Postgres |
+| 项目 | Live ⭐ | ⭐ Stars | 语言 | 类型 | 特点 |
+|------|---------|---------|------|------|------|
+| [**OpenClaw**](https://github.com/openclaw/openclaw) | [![stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social)](https://github.com/openclaw/openclaw) | 379k | TypeScript | AI 代理 | 基础项目，支持 MCP 和 AWS EC2 |
+| [**Hermes Agent**](https://github.com/NousResearch/hermes-agent) | [![stars](https://img.shields.io/github/stars/NousResearch/hermes-agent?style=social)](https://github.com/NousResearch/hermes-agent) | 195k | Python | AI 代理 | 学习循环、技能、网关、OpenClaw 迁移 |
+| [**Nanobot**](https://github.com/HKUDS/nanobot) | [![stars](https://img.shields.io/github/stars/HKUDS/nanobot?style=social)](https://github.com/HKUDS/nanobot) | 44k | Python | AI 代理 | 多实例、超轻量 |
+| [**AstrBot**](https://github.com/AstrBotDevs/AstrBot) | [![stars](https://img.shields.io/github/stars/AstrBotDevs/AstrBot?style=social)](https://github.com/AstrBotDevs/AstrBot) | 35k | Python | 聊天机器人 | 专注 IM 平台（TG、WhatsApp） |
+| [**ZeroClaw**](https://github.com/zeroclaw-labs/zeroclaw) | [![stars](https://img.shields.io/github/stars/zeroclaw-labs/zeroclaw?style=social)](https://github.com/zeroclaw-labs/zeroclaw) | 32k | Rust | AI 代理 | 内存占用 ~5MB，快速启动 |
+| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | [![stars](https://img.shields.io/github/stars/qwibitai/nanoclaw?style=social)](https://github.com/qwibitai/nanoclaw) | 30k | TypeScript | AI 代理 | 容器化，专注商业通讯 |
+| [**PicoClaw**](https://github.com/sipeed/picoclaw) | [![stars](https://img.shields.io/github/stars/sipeed/picoclaw?style=social)](https://github.com/sipeed/picoclaw) | 29k | Go | Edge/IoT | 作为网关节点，廉价硬件 |
+| [**IronClaw**](https://github.com/nearai/ironclaw) | [![stars](https://img.shields.io/github/stars/nearai/ironclaw?style=social)](https://github.com/nearai/ironclaw) | 12k | Rust | AI 代理 | WASM 沙箱，最大隔离 |
+| [**GoClaw**](https://github.com/nextlevelbuilder/goclaw) | [![stars](https://img.shields.io/github/stars/nextlevelbuilder/goclaw?style=social)](https://github.com/nextlevelbuilder/goclaw) | 3.3k | Go | AI 代理 | 多租户、五层安全、MCP、Postgres |
 
 *星标为约数；精确值见 [scripts/data/github_stats.json](scripts/data/github_stats.json)。实时星标徽章：[shields.io](https://shields.io/badges/git-hub-repo-stars)（`https://img.shields.io/github/stars/<owner>/<repo>`）。*
 
@@ -49,15 +49,15 @@
 
 ### 性能与边缘
 
-- [**NullClaw**](https://github.com/nullclaw/nullclaw) (Zig)：性能出色。678KB 二进制，启动 <2ms。适用于 Arduino 和 RPi。
-- [**MimiClaw**](https://github.com/memovai/mimiclaw) (C)：在 ESP32-S3 裸机上运行。方案成本约 $5。
-- [**SubZeroClaw**](https://github.com/jmlago/subzeroclaw) (C)：仅 54KB。
+- [**NullClaw**](https://github.com/nullclaw/nullclaw) [![stars](https://img.shields.io/github/stars/nullclaw/nullclaw?style=social)](https://github.com/nullclaw/nullclaw) (Zig)：性能出色。678KB 二进制，启动 <2ms。适用于 Arduino 和 RPi。
+- [**MimiClaw**](https://github.com/memovai/mimiclaw) [![stars](https://img.shields.io/github/stars/memovai/mimiclaw?style=social)](https://github.com/memovai/mimiclaw) (C)：在 ESP32-S3 裸机上运行。方案成本约 $5。
+- [**SubZeroClaw**](https://github.com/jmlago/subzeroclaw) [![stars](https://img.shields.io/github/stars/jmlago/subzeroclaw?style=social)](https://github.com/jmlago/subzeroclaw) (C)：仅 54KB。
 
 ### 安全与容错
 
-- [**ZeptoClaw**](https://github.com/qhkm/zeptoclaw)：Rust 七层安全架构。
-- [**BeamClaw**](https://github.com/peterdmv/beamclaw)：Erlang/OTP 编写，面向分布式系统。
-- [**Safeclaw**](https://github.com/princezuda/safeclaw)：无 LLM（意图识别），保证 100% 可预测性。
+- [**ZeptoClaw**](https://github.com/qhkm/zeptoclaw) [![stars](https://img.shields.io/github/stars/qhkm/zeptoclaw?style=social)](https://github.com/qhkm/zeptoclaw)：Rust 七层安全架构。
+- [**BeamClaw**](https://github.com/peterdmv/beamclaw) [![stars](https://img.shields.io/github/stars/peterdmv/beamclaw?style=social)](https://github.com/peterdmv/beamclaw)：Erlang/OTP 编写，面向分布式系统。
+- [**Safeclaw**](https://github.com/princezuda/safeclaw) [![stars](https://img.shields.io/github/stars/princezuda/safeclaw?style=social)](https://github.com/princezuda/safeclaw)：无 LLM（意图识别），保证 100% 可预测性。
 
 ## 🚀 快速开始
 

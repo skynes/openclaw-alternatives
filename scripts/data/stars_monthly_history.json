@@ -2,7 +2,7 @@
   "meta": {
     "description": "GitHub stargazers_count snapshots by calendar month (YYYY-MM).",
     "note": "2026-03 row is derived from the archived github_stats_before_refresh.json (late March 2026 baseline). Future months: run scripts/append_stars_monthly.py after fetch_github_stats.py.",
-    "last_month_added": "2026-04"
+    "last_month_added": "2026-06"
   },
   "months": {
     "2026-03": {
@@ -62,6 +62,37 @@
       "zeptoclaw": 589,
       "zeroclaw": 30153,
       "zeroclaw-openagen": 1808
+    },
+    "2026-06": {
+      "picoclaw": 29423,
+      "nanobot": 44263,
+      "openclaw": 378931,
+      "hermes-agent": 194711,
+      "nanoclaw": 29882,
+      "zeroclaw": 31922,
+      "microclaw": 716,
+      "nanoClaw": 64,
+      "beamclaw": 0,
+      "AstrBot": 34741,
+      "mcp-use": 10109,
+      "ironclaw": 12455,
+      "awesome-openclaw-skills": 50282,
+      "nullclaw": 7704,
+      "zclaw": 2161,
+      "mimiclaw": 5503,
+      "safeclaw": 277,
+      "zeptoclaw": 641,
+      "tinyclaw": 267,
+      "hermitclaw": 326,
+      "subzeroclaw": 119,
+      "tinyclaw-400": 3583,
+      "carapace": 46,
+      "supaclaw": 59,
+      "rustclaw": 6,
+      "zeroclaw-openagen": 1901,
+      "goclaw": 3263,
+      "shibaclaw": 71,
+      "odysseus": 71915
     }
   }
 }

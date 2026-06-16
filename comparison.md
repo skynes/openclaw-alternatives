@@ -202,39 +202,42 @@ If you cannot use **AGPL**, rule **AstrBot** in or out **before** deep integrati
 
 **Formula** (same as `fetch_github_stats.py`): `popularity = 2 × stars + forks`.
 
-**Source:** [scripts/data/github_stats.json](scripts/data/github_stats.json) — refresh with `python scripts/fetch_github_stats.py`.
+**Source:** [scripts/data/github_stats.json](scripts/data/github_stats.json) — refresh with `python scripts/fetch_github_stats.py`. **Live ⭐/🍴** columns use [shields.io](https://shields.io) (regenerate tables: `python scripts/apply_badges_to_docs.py`).
 
-| Rank | Project | ⭐ Stars | 🍴 Forks | Score |
-|------|---------|--------:|---------:|------:|
-| 1 | [OpenClaw](https://github.com/openclaw/openclaw) | 357 576 | 72 640 | 787 792 |
-| 2 | [Hermes Agent](https://github.com/NousResearch/hermes-agent) | 85 892 | 11 639 | 183 423 |
-| 3 | [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | 46 054 | 4 490 | 96 598 |
-| 4 | [Nanobot](https://github.com/HKUDS/nanobot) | 39 549 | 6 930 | 86 028 |
-| 5 | [NanoClaw](https://github.com/qwibitai/nanoclaw) (qwibitai) | 27 292 | 11 972 | 66 556 |
-| 6 | [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) | 30 153 | 4 351 | 64 657 |
-| 7 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) | 29 976 | 2 022 | 61 974 |
-| 8 | [PicoClaw](https://github.com/sipeed/picoclaw) | 28 154 | 4 006 | 60 314 |
-| 9 | [IronClaw](https://github.com/nearai/ironclaw) | 11 780 | 1 348 | 24 908 |
-| 10 | [mcp-use](https://github.com/mcp-use/mcp-use) | 9 772 | 1 242 | 20 786 |
-| 11 | [NullClaw](https://github.com/nullclaw/nullclaw) | 7 195 | 843 | 15 233 |
-| 12 | [MimiClaw](https://github.com/memovai/mimiclaw) | 5 174 | 757 | 11 105 |
-| 13 | [TinyClaw](https://github.com/jlia0/tinyclaw) (400-line) | 3 510 | 504 | 7 524 |
-| 14 | [GoClaw](https://github.com/nextlevelbuilder/goclaw) | 2 706 | 683 | 6 095 |
-| 15 | [zclaw](https://github.com/tnm/zclaw) | 2 074 | 177 | 4 325 |
-| 16 | [ZeroClaw](https://github.com/openagen/zeroclaw) (openagen) | 1 808 | 267 | 3 883 |
-| 17 | [MicroClaw](https://github.com/microclaw/microclaw) | 649 | 120 | 1 418 |
-| 18 | [ZeptoClaw](https://github.com/qhkm/zeptoclaw) | 589 | 87 | 1 265 |
-| 19 | [HermitClaw](https://github.com/brendanhogan/hermitclaw) | 319 | 54 | 692 |
-| 20 | [TinyClaw](https://github.com/warengonzaga/tinyclaw) (warengonzaga) | 217 | 33 | 467 |
-| 21 | [Safeclaw](https://github.com/princezuda/safeclaw) | 131 | 15 | 277 |
-| 22 | [SubZeroClaw](https://github.com/jmlago/subzeroclaw) | 119 | 14 | 252 |
-| 23 | [NanoClaw](https://github.com/ysz/nanoClaw) (ysz) | 61 | 18 | 140 |
-| 24 | [SupaClaw](https://github.com/vincenzodomina/supaclaw) | 58 | 10 | 126 |
-| 25 | [Carapace](https://github.com/puremachinery/carapace) | 43 | 6 | 92 |
-| 26 | [RustClaw](https://github.com/shimaenaga1123/rustclaw) | 4 | 1 | 9 |
-| 27 | [BeamClaw](https://github.com/peterdmv/beamclaw) | 0 | 2 | 2 |
+| Rank | Project | Live ⭐ | Live 🍴 | Score |
+|------|---------|---------|---------|------:|
+| 1 | [OpenClaw](https://github.com/openclaw/openclaw) | [![stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social)](https://github.com/openclaw/openclaw) | [![forks](https://img.shields.io/github/forks/openclaw/openclaw?style=social)](https://github.com/openclaw/openclaw) | 837 149 |
+| 2 | [Hermes Agent](https://github.com/NousResearch/hermes-agent) | [![stars](https://img.shields.io/github/stars/NousResearch/hermes-agent?style=social)](https://github.com/NousResearch/hermes-agent) | [![forks](https://img.shields.io/github/forks/NousResearch/hermes-agent?style=social)](https://github.com/NousResearch/hermes-agent) | 423 583 |
+| 3 | [Odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | [![stars](https://img.shields.io/github/stars/pewdiepie-archdaemon/odysseus?style=social)](https://github.com/pewdiepie-archdaemon/odysseus) | [![forks](https://img.shields.io/github/forks/pewdiepie-archdaemon/odysseus?style=social)](https://github.com/pewdiepie-archdaemon/odysseus) | 153 029 |
+| 4 | [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | [![stars](https://img.shields.io/github/stars/VoltAgent/awesome-openclaw-skills?style=social)](https://github.com/VoltAgent/awesome-openclaw-skills) | [![forks](https://img.shields.io/github/forks/VoltAgent/awesome-openclaw-skills?style=social)](https://github.com/VoltAgent/awesome-openclaw-skills) | 105 461 |
+| 5 | [Nanobot](https://github.com/HKUDS/nanobot) | [![stars](https://img.shields.io/github/stars/HKUDS/nanobot?style=social)](https://github.com/HKUDS/nanobot) | [![forks](https://img.shields.io/github/forks/HKUDS/nanobot?style=social)](https://github.com/HKUDS/nanobot) | 96 349 |
+| 6 | [NanoClaw (qwibitai)](https://github.com/qwibitai/nanoclaw) | [![stars](https://img.shields.io/github/stars/qwibitai/nanoclaw?style=social)](https://github.com/qwibitai/nanoclaw) | [![forks](https://img.shields.io/github/forks/qwibitai/nanoclaw?style=social)](https://github.com/qwibitai/nanoclaw) | 72 649 |
+| 7 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) | [![stars](https://img.shields.io/github/stars/AstrBotDevs/AstrBot?style=social)](https://github.com/AstrBotDevs/AstrBot) | [![forks](https://img.shields.io/github/forks/AstrBotDevs/AstrBot?style=social)](https://github.com/AstrBotDevs/AstrBot) | 71 875 |
+| 8 | [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) | [![stars](https://img.shields.io/github/stars/zeroclaw-labs/zeroclaw?style=social)](https://github.com/zeroclaw-labs/zeroclaw) | [![forks](https://img.shields.io/github/forks/zeroclaw-labs/zeroclaw?style=social)](https://github.com/zeroclaw-labs/zeroclaw) | 68 562 |
+| 9 | [PicoClaw](https://github.com/sipeed/picoclaw) | [![stars](https://img.shields.io/github/stars/sipeed/picoclaw?style=social)](https://github.com/sipeed/picoclaw) | [![forks](https://img.shields.io/github/forks/sipeed/picoclaw?style=social)](https://github.com/sipeed/picoclaw) | 63 064 |
+| 10 | [IronClaw](https://github.com/nearai/ironclaw) | [![stars](https://img.shields.io/github/stars/nearai/ironclaw?style=social)](https://github.com/nearai/ironclaw) | [![forks](https://img.shields.io/github/forks/nearai/ironclaw?style=social)](https://github.com/nearai/ironclaw) | 26 367 |
+| 11 | [mcp-use](https://github.com/mcp-use/mcp-use) | [![stars](https://img.shields.io/github/stars/mcp-use/mcp-use?style=social)](https://github.com/mcp-use/mcp-use) | [![forks](https://img.shields.io/github/forks/mcp-use/mcp-use?style=social)](https://github.com/mcp-use/mcp-use) | 21 552 |
+| 12 | [NullClaw](https://github.com/nullclaw/nullclaw) | [![stars](https://img.shields.io/github/stars/nullclaw/nullclaw?style=social)](https://github.com/nullclaw/nullclaw) | [![forks](https://img.shields.io/github/forks/nullclaw/nullclaw?style=social)](https://github.com/nullclaw/nullclaw) | 16 307 |
+| 13 | [MimiClaw](https://github.com/memovai/mimiclaw) | [![stars](https://img.shields.io/github/stars/memovai/mimiclaw?style=social)](https://github.com/memovai/mimiclaw) | [![forks](https://img.shields.io/github/forks/memovai/mimiclaw?style=social)](https://github.com/memovai/mimiclaw) | 11 814 |
+| 14 | [TinyClaw (400-line)](https://github.com/jlia0/tinyclaw) | [![stars](https://img.shields.io/github/stars/jlia0/tinyclaw?style=social)](https://github.com/jlia0/tinyclaw) | [![forks](https://img.shields.io/github/forks/jlia0/tinyclaw?style=social)](https://github.com/jlia0/tinyclaw) | 7 671 |
+| 15 | [GoClaw](https://github.com/nextlevelbuilder/goclaw) | [![stars](https://img.shields.io/github/stars/nextlevelbuilder/goclaw?style=social)](https://github.com/nextlevelbuilder/goclaw) | [![forks](https://img.shields.io/github/forks/nextlevelbuilder/goclaw?style=social)](https://github.com/nextlevelbuilder/goclaw) | 7 442 |
+| 16 | [zclaw](https://github.com/tnm/zclaw) | [![stars](https://img.shields.io/github/stars/tnm/zclaw?style=social)](https://github.com/tnm/zclaw) | [![forks](https://img.shields.io/github/forks/tnm/zclaw?style=social)](https://github.com/tnm/zclaw) | 4 504 |
+| 17 | [ZeroClaw (openagen)](https://github.com/openagen/zeroclaw) | [![stars](https://img.shields.io/github/stars/openagen/zeroclaw?style=social)](https://github.com/openagen/zeroclaw) | [![forks](https://img.shields.io/github/forks/openagen/zeroclaw?style=social)](https://github.com/openagen/zeroclaw) | 4 081 |
+| 18 | [MicroClaw](https://github.com/microclaw/microclaw) | [![stars](https://img.shields.io/github/stars/microclaw/microclaw?style=social)](https://github.com/microclaw/microclaw) | [![forks](https://img.shields.io/github/forks/microclaw/microclaw?style=social)](https://github.com/microclaw/microclaw) | 1 564 |
+| 19 | [ZeptoClaw](https://github.com/qhkm/zeptoclaw) | [![stars](https://img.shields.io/github/stars/qhkm/zeptoclaw?style=social)](https://github.com/qhkm/zeptoclaw) | [![forks](https://img.shields.io/github/forks/qhkm/zeptoclaw?style=social)](https://github.com/qhkm/zeptoclaw) | 1 379 |
+| 20 | [HermitClaw](https://github.com/brendanhogan/hermitclaw) | [![stars](https://img.shields.io/github/stars/brendanhogan/hermitclaw?style=social)](https://github.com/brendanhogan/hermitclaw) | [![forks](https://img.shields.io/github/forks/brendanhogan/hermitclaw?style=social)](https://github.com/brendanhogan/hermitclaw) | 706 |
+| 21 | [Safeclaw](https://github.com/princezuda/safeclaw) | [![stars](https://img.shields.io/github/stars/princezuda/safeclaw?style=social)](https://github.com/princezuda/safeclaw) | [![forks](https://img.shields.io/github/forks/princezuda/safeclaw?style=social)](https://github.com/princezuda/safeclaw) | 588 |
+| 22 | [TinyClaw (warengonzaga)](https://github.com/warengonzaga/tinyclaw) | [![stars](https://img.shields.io/github/stars/warengonzaga/tinyclaw?style=social)](https://github.com/warengonzaga/tinyclaw) | [![forks](https://img.shields.io/github/forks/warengonzaga/tinyclaw?style=social)](https://github.com/warengonzaga/tinyclaw) | 572 |
+| 23 | [SubZeroClaw](https://github.com/jmlago/subzeroclaw) | [![stars](https://img.shields.io/github/stars/jmlago/subzeroclaw?style=social)](https://github.com/jmlago/subzeroclaw) | [![forks](https://img.shields.io/github/forks/jmlago/subzeroclaw?style=social)](https://github.com/jmlago/subzeroclaw) | 253 |
+| 24 | [ShibaClaw](https://github.com/RikyZ90/ShibaClaw) | [![stars](https://img.shields.io/github/stars/RikyZ90/ShibaClaw?style=social)](https://github.com/RikyZ90/ShibaClaw) | [![forks](https://img.shields.io/github/forks/RikyZ90/ShibaClaw?style=social)](https://github.com/RikyZ90/ShibaClaw) | 149 |
+| 25 | [NanoClaw (ysz)](https://github.com/ysz/nanoClaw) | [![stars](https://img.shields.io/github/stars/ysz/nanoClaw?style=social)](https://github.com/ysz/nanoClaw) | [![forks](https://img.shields.io/github/forks/ysz/nanoClaw?style=social)](https://github.com/ysz/nanoClaw) | 146 |
+| 26 | [SupaClaw](https://github.com/vincenzodomina/supaclaw) | [![stars](https://img.shields.io/github/stars/vincenzodomina/supaclaw?style=social)](https://github.com/vincenzodomina/supaclaw) | [![forks](https://img.shields.io/github/forks/vincenzodomina/supaclaw?style=social)](https://github.com/vincenzodomina/supaclaw) | 127 |
+| 27 | [Carapace](https://github.com/puremachinery/carapace) | [![stars](https://img.shields.io/github/stars/puremachinery/carapace?style=social)](https://github.com/puremachinery/carapace) | [![forks](https://img.shields.io/github/forks/puremachinery/carapace?style=social)](https://github.com/puremachinery/carapace) | 99 |
+| 28 | [RustClaw](https://github.com/shimaenaga1123/rustclaw) | [![stars](https://img.shields.io/github/stars/shimaenaga1123/rustclaw?style=social)](https://github.com/shimaenaga1123/rustclaw) | [![forks](https://img.shields.io/github/forks/shimaenaga1123/rustclaw?style=social)](https://github.com/shimaenaga1123/rustclaw) | 13 |
+| 29 | [BeamClaw](https://github.com/peterdmv/beamclaw) | [![stars](https://img.shields.io/github/stars/peterdmv/beamclaw?style=social)](https://github.com/peterdmv/beamclaw) | [![forks](https://img.shields.io/github/forks/peterdmv/beamclaw?style=social)](https://github.com/peterdmv/beamclaw) | 2 |
 
-*`awesome-openclaw-skills` is a curated list, not a runtime — kept here for completeness.*
+
+*`awesome-openclaw-skills` is a curated list, not a runtime. `Odysseus` is a self-hosted AI workspace with OpenRouter model rankings — useful for model choice, not a direct OpenClaw clone.*
 
 ---
 
